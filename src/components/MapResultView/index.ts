@@ -1,0 +1,1 @@
+export { MapResultView } from './MapResultView';
