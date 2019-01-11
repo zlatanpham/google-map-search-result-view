@@ -27,6 +27,8 @@ const initMap = function(
   map = new google.maps.Map(document.getElementById('map'), {
     center: { ...position },
     zoom: 16,
+    maxZoom: 16,
+    minZoom: 16,
     // styles: mapStyle,
   });
 
@@ -127,7 +129,7 @@ export class MapResultView extends React.Component<
 
   setActiveMarkupId = (id: number) => {
     this.setState({ activeMarkupId: id }, () => {
-      this.test(this.state);
+      this.markerClickCallback(this.state);
     });
   };
 
@@ -136,7 +138,7 @@ export class MapResultView extends React.Component<
     setActiveMarkupId: this.setActiveMarkupId,
   };
 
-  test: (state: MapResultViewState) => void = () => {};
+  markerClickCallback: (state: MapResultViewState) => void = () => {};
 
   componentDidMount() {
     const position = { lat: this.props.data.lat, lng: this.props.data.lng };
@@ -153,7 +155,7 @@ export class MapResultView extends React.Component<
       document.body.appendChild(this.s);
       // @ts-ignore
       this.s.onload = () => {
-        this.test = initMap(
+        this.markerClickCallback = initMap(
           position,
           this.props.data.markers,
           this.props.MarkerComponent,
@@ -161,10 +163,22 @@ export class MapResultView extends React.Component<
         );
       };
     } else {
-      this.test = initMap(
+      this.markerClickCallback = initMap(
         position,
         this.props.data.markers,
         this.props.MarkerComponent,
+        this.state,
+      );
+    }
+  }
+
+  componentWillReceiveProps(nextProps: MapResultViewProps) {
+    if (nextProps.data !== this.props.data) {
+      const position = { lat: nextProps.data.lat, lng: nextProps.data.lng };
+      this.markerClickCallback = this.markerClickCallback = initMap(
+        position,
+        nextProps.data.markers,
+        nextProps.MarkerComponent,
         this.state,
       );
     }

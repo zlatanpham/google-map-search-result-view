@@ -64,17 +64,29 @@ class Marker extends React.Component<MarkerInterface> {
 }
 
 class App extends Component {
+  state = {
+    data: sampleData,
+  };
   render() {
     console.log(sampleData);
     return (
-      <div className="App">
-        <MapResultView
-          GoogleAPIMapKey={process.env.REACT_APP_GOOGLE_MAP_API || ''}
-          // @ts-ignore
-          MarkerComponent={Marker}
-          data={sampleData}
-        />
-      </div>
+      <>
+        <div className="App">
+          <MapResultView
+            GoogleAPIMapKey={process.env.REACT_APP_GOOGLE_MAP_API || ''}
+            // @ts-ignore
+            MarkerComponent={Marker}
+            data={this.state.data}
+          />
+        </div>
+        <button
+          onClick={() => {
+            this.setState({ data: { ...sampleData } });
+          }}
+        >
+          reset
+        </button>
+      </>
     );
   }
 }
