@@ -24,6 +24,10 @@ export default {
       lat: 13.741267483427281,
       lng: 100.55671506628305,
       id: 5167556,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/d0dd180b-78c3-4fd2-8880-e32fad953af5.jpg?aki_policy=large',
+      space_type: 'Private room',
+      bed_label: '2 beds',
       name: '2 bed in attic at Nana station, Bangkok',
       price: {
         amount: 39,
@@ -36,6 +40,10 @@ export default {
       lat: 13.742145297730714,
       lng: 100.55520942205196,
       id: 9374445,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/39dab945-e939-494a-947d-00c3f3e1f269.jpg?aki_policy=large',
+      space_type: 'Entire apartment',
+      bed_label: '2 beds',
       name: 'Avatar residence sukhumvit soi 7',
       price: {
         amount: 138,
@@ -48,6 +56,10 @@ export default {
       lat: 13.726591792593402,
       lng: 100.5611712394403,
       id: 11703867,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/b60d888b-c25c-4bb5-a4c0-2c2d4e77e8f3.jpg?aki_policy=large',
+      space_type: 'Entire serviced apartment',
+      bed_label: '2 beds',
       name: '2BR (A) MRT QueenSirikit/BPE',
       price: {
         amount: 100,
@@ -60,6 +72,10 @@ export default {
       lat: 13.745767155443485,
       lng: 100.55778159592386,
       id: 14403086,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/9673b191-ed57-40c8-85a0-1e44b43a2646.jpg?aki_policy=large',
+      space_type: 'Entire serviced apartment',
+      bed_label: '1 bed',
       name: 'Grand Deluxe Twin @ Aspira Hiptique S13 AMC',
       price: {
         amount: 73,
@@ -72,6 +88,10 @@ export default {
       lat: 13.731648700316196,
       lng: 100.56288547405708,
       id: 14646520,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/fc8fe961-4cec-404a-84c2-121ddf8d81ac.jpg?aki_policy=large',
+      space_type: 'Entire serviced apartment',
+      bed_label: '1 bed',
       name: 'Studio @ Sukhumvit18/AIA',
       price: {
         amount: 66,
@@ -84,6 +104,10 @@ export default {
       lat: 13.740452200915112,
       lng: 100.55625289713475,
       id: 21710965,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/9782ea96-5966-409a-9785-c027a9a15333.jpg?aki_policy=large',
+      space_type: 'Hotel room',
+      bed_label: '2 beds',
       name: 'Private room for 2 persons at Nana station',
       price: {
         amount: 61,
@@ -96,6 +120,10 @@ export default {
       lat: 13.741529242062057,
       lng: 100.5548675560566,
       id: 21724694,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/48ebe73b-60a5-4fb2-8327-822ef7b7a547.jpg?aki_policy=large',
+      space_type: 'Hotel room',
+      bed_label: '1 bed',
       name: 'Private room for 2 persons at Nana station',
       price: {
         amount: 61,
@@ -108,6 +136,10 @@ export default {
       lat: 13.728375815274852,
       lng: 100.55997482705736,
       id: 22296124,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/aa79e025-be13-4788-8017-7d32856e839a.jpg?aki_policy=large',
+      space_type: 'Private room',
+      bed_label: '1 bed',
       name: 'Lazy Blue Private room near BTS asok-kingsize bed',
       price: {
         amount: 43,
@@ -120,6 +152,10 @@ export default {
       lat: 13.74123533578263,
       lng: 100.55442866694078,
       id: 23185922,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/058f697f-649a-4b67-9a1c-b5e4b319bd4e.jpg?aki_policy=large',
+      space_type: 'Entire serviced apartment',
+      bed_label: '1 bed',
       name: '(Delight 1BR) Prime Area! 150m to BTS NANA',
       price: {
         amount: 89,
@@ -132,6 +168,10 @@ export default {
       lat: 13.727151397987223,
       lng: 100.56159152908971,
       id: 23895063,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/16b1eb9b-d07c-4f96-a13c-a3b69207341c.jpg?aki_policy=large',
+      space_type: 'Entire serviced apartment',
+      bed_label: '2 beds',
       name: '2BR (B) MRT QueenSirikit/BPD',
       price: {
         amount: 100,
@@ -144,6 +184,10 @@ export default {
       lat: 13.740414,
       lng: 100.556664,
       id: 24813978,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/2179d6fd-dd9c-4fb4-8c0e-4325374d05d0.jpg?aki_policy=large',
+      space_type: 'Hotel room',
+      bed_label: '2 beds',
       name: '604-605@KK 11 BOUTIQUE INN',
       price: {
         amount: 30,
@@ -156,6 +200,10 @@ export default {
       lat: 13.739533267387817,
       lng: 100.55556720057908,
       id: 24816229,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/52523f00-c731-4659-aa07-c417b9bbe24a.jpg?aki_policy=large',
+      space_type: 'Hotel room',
+      bed_label: '2 beds',
       name: '504-505@ KK 11 BOUTIQUE INN',
       price: {
         amount: 30,
@@ -168,6 +216,10 @@ export default {
       lat: 13.740774215071784,
       lng: 100.55746462069467,
       id: 25560798,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/424376de-1898-4b94-a717-e657f65365e5.jpg?aki_policy=large',
+      space_type: 'Hotel room',
+      bed_label: '1 bed',
       name: '90M To BTSNana / Business Double Room',
       price: {
         amount: 35,
@@ -180,6 +232,10 @@ export default {
       lat: 13.74901296010283,
       lng: 100.55734042164949,
       id: 25706629,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/7c49ab5e-3b6a-4951-8a30-9a2ac82e3594.jpg?aki_policy=large',
+      space_type: 'Entire condominium',
+      bed_label: '1 bed',
       name: 'Luxury 1BR Condo at Makkasan near Nana',
       price: {
         amount: 103,
@@ -192,6 +248,10 @@ export default {
       lat: 13.726724322394004,
       lng: 100.5629430594836,
       id: 26113334,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/2db359ba-e4e7-47ac-b744-daaffa5d0f84.jpg?aki_policy=large',
+      space_type: 'Entire serviced apartment',
+      bed_label: '2 beds',
       name: '2BR (A) MRT QueenSirikit/BPE',
       price: {
         amount: 100,
@@ -204,6 +264,10 @@ export default {
       lat: 13.730942831728182,
       lng: 100.56310141492588,
       id: 27816008,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/fc8fe961-4cec-404a-84c2-121ddf8d81ac.jpg?aki_policy=large',
+      space_type: 'Entire serviced apartment',
+      bed_label: '1 bed',
       name: 'Studio @ Sukhumvit18/AIA',
       price: {
         amount: 66,
@@ -216,6 +280,10 @@ export default {
       lat: 13.742739262863799,
       lng: 100.56160233217065,
       id: 29908953,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/04ce75e7-da80-473e-ac19-fd8209fc4c6e.jpg?aki_policy=large',
+      space_type: 'Entire condominium',
+      bed_label: '2 beds',
       name: 'Great Location❤️Downtown❤️Wifi❤️Street Food❤️Clean',
       price: {
         amount: 73,
@@ -228,6 +296,10 @@ export default {
       lat: 13.748727416440218,
       lng: 100.5551039180784,
       id: 31199134,
+      picture_url:
+        'https://a0.muscache.com/im/pictures/4cce2d1c-f97d-4e0d-a9ee-77a3bccff1b1.jpg?aki_policy=large',
+      space_type: 'Entire house',
+      bed_label: '2 beds',
       name: '曼谷城市中心温馨一房公寓',
       price: {
         amount: 70,

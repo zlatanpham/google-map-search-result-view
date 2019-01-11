@@ -1,4 +1,5 @@
 import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 import './style.css';
 
 export interface MapResultViewProps {
@@ -14,6 +15,54 @@ export interface MapResultViewProps {
   };
 }
 
+interface MarkerInterface {
+  lat: number;
+  lng: number;
+  id: number;
+  picture_url: string;
+  space_type: string;
+  bed_label: string;
+  name: string;
+  price: Price;
+}
+
+export interface Price {
+  amount: number;
+  amount_formatted: string;
+  currency: string;
+  is_micros_accuracy: boolean;
+}
+
+class Marker extends React.Component<MarkerInterface> {
+  render() {
+    return (
+      <div
+        style={{
+          paddingLeft: '6px',
+          paddingRight: '5px',
+          position: 'relative',
+          borderWidth: '1px',
+          borderStyle: 'solid',
+          borderColor: 'rgba(0, 0, 0, 0.2)',
+          borderImage: 'initial',
+          borderRadius: '2px',
+          backgroundColor: 'white',
+          fontWeight: 'bold',
+          fontSize: '14px',
+          padding: '3px 5px',
+          boxShadow: '0 2px 4px 0 rgba(0,0,0,0.15)',
+          cursor: 'pointer',
+        }}
+        onClick={() => {
+          console.log(this.props);
+        }}
+      >
+        {this.props.price.amount_formatted + ' ' + this.props.price.currency}
+      </div>
+    );
+  }
+}
+
 let map: any;
 const initMap = function(
   position: { lat: number; lng: number },
@@ -22,7 +71,7 @@ const initMap = function(
   // @ts-ignore
   map = new google.maps.Map(document.getElementById('map'), {
     center: { ...position },
-    zoom: 15,
+    zoom: 16,
     // styles: mapStyle,
   });
 
@@ -50,9 +99,14 @@ const initMap = function(
     console.log('add');
     this.div = document.createElement('div');
     this.div.className = 'my-marker';
-    let span = document.createElement('span');
-    span.innerHTML = this.data.name;
-    this.div.appendChild(span);
+    ReactDOM.render(
+      //@ts-ignore
+      <Marker {...this.data} />,
+      this.div,
+    );
+    // let span = document.createElement('span');
+    // span.innerHTML = this.data.name;
+    // this.div.appendChild(span);
     var panes = this.getPanes();
     panes.overlayImage.appendChild(this.div);
   };
