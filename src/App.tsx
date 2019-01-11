@@ -12,6 +12,7 @@ interface MarkerInterface {
   bed_label: string;
   name: string;
   price: Price;
+  map: { activeMarkupId: number; setActiveMarkupId: (id: number) => void };
 }
 
 export interface Price {
@@ -22,7 +23,11 @@ export interface Price {
 }
 
 class Marker extends React.Component<MarkerInterface> {
+  state = {
+    show: false,
+  };
   render() {
+    const active = this.props.id === this.props.map.activeMarkupId;
     return (
       <div
         style={{
@@ -34,17 +39,24 @@ class Marker extends React.Component<MarkerInterface> {
           borderColor: 'rgba(0, 0, 0, 0.2)',
           borderImage: 'initial',
           borderRadius: '2px',
-          backgroundColor: 'white',
+          backgroundColor: active ? 'black' : 'white',
           fontWeight: 'bold',
           fontSize: '14px',
           padding: '3px 5px',
+          zIndex: active ? 2 : 1,
           boxShadow: '0 2px 4px 0 rgba(0,0,0,0.15)',
           cursor: 'pointer',
+          color: active ? 'white' : 'black',
         }}
-        onClick={() => {
-          console.log(this.props);
+        onClick={e => {
+          e.preventDefault();
+          console.log(this.props.map);
+          this.props.map.setActiveMarkupId(this.props.id);
+          e.stopPropagation();
+          // this.setState({ show: true });
         }}
       >
+        {active && <div>{this.props.name}</div>}
         {this.props.price.amount_formatted + ' ' + this.props.price.currency}
       </div>
     );
