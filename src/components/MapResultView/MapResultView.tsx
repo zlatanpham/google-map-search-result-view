@@ -27,8 +27,9 @@ const initMap = function(
   map = new google.maps.Map(document.getElementById('map'), {
     center: { ...position },
     zoom: 16,
-    maxZoom: 16,
-    minZoom: 16,
+    scrollwheel: true,
+    // maxZoom: 16,
+    // minZoom: 16,
     // styles: mapStyle,
   });
 
@@ -84,6 +85,9 @@ const initMap = function(
     this.div.style.top = position.y + 'px';
   };
 
+  // @ts-ignore
+  var bounds = new google.maps.LatLngBounds();
+
   //@ts-ignore
   const storedMarkers = [];
   //@ts-ignore
@@ -93,12 +97,9 @@ const initMap = function(
     htmlMarker.setMap(map);
     storedMarkers.push(htmlMarker);
 
-    //@ts-ignore
-    // new google.maps.Marker({
-    //   //@ts-ignore
-    //   position: new google.maps.LatLng(marker.lat, marker.lng),
-    //   map: map,
-    // });
+    // Set zoom to display all current marker
+    bounds.extend({ lat: marker.lat, lng: marker.lng });
+    map.fitBounds(bounds);
   });
 
   //@ts-ignore
@@ -139,6 +140,10 @@ export class MapResultView extends React.Component<
   };
 
   markerClickCallback: (state: MapResultViewState) => void = () => {};
+
+  constructor(props: MapResultViewProps) {
+    super(props);
+  }
 
   componentDidMount() {
     const position = { lat: this.props.data.lat, lng: this.props.data.lng };

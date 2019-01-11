@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { MapResultView } from './components/MapResultView';
 import './App.css';
-import sampleData from './sampleData';
+import sampleData, { sampleTwo } from './sampleData';
 
 interface MarkerInterface {
   lat: number;
@@ -84,7 +84,14 @@ class App extends Component {
             this.setState({ data: { ...sampleData } });
           }}
         >
-          reset
+          reset to 1
+        </button>
+        <button
+          onClick={() => {
+            this.setState({ data: { ...sampleTwo } });
+          }}
+        >
+          reset to 2
         </button>
       </>
     );
