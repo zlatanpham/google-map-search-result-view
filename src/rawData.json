@@ -1,0 +1,4156 @@
+[
+    {
+      "position": {
+        "lat": 13.741267483427281,
+        "lng": 100.55671506628305
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "2 shared baths",
+          "bathrooms": 2,
+          "bed_label": "2 beds",
+          "bedroom_label": "1 bedroom",
+          "bedrooms": 1,
+          "beds": 2,
+          "city": "กรุงเทพมหานคร",
+          "guest_label": "2 guests",
+          "host_languages": [
+            "en",
+            "th"
+          ],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/users/9219499/profile_pic/1396502535/original.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/users/9219499/profile_pic/1396502535/original.jpg?aki_policy=profile_x_medium",
+          "id": 5167556,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": false,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Private room",
+              "2 beds"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.741267483427281,
+          "lng": 100.55671506628305,
+          "localized_city": "กรุงเทพมหานคร",
+          "localized_neighborhood": "Lower Sukhumvit",
+          "name": "2 bed in attic at Nana station, Bangkok",
+          "neighborhood": "Lower Sukhumvit",
+          "person_capacity": 2,
+          "picture_count": 34,
+          "picture_url": "https://a0.muscache.com/im/pictures/d0dd180b-78c3-4fd2-8880-e32fad953af5.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/d0dd180b-78c3-4fd2-8880-e32fad953af5.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/551b303f-5ed9-46ac-9424-6e1f4d95985c.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/9f50301a-ae32-4cc1-8af5-2098ce4daf6f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4ae8198d-9981-40f3-87a6-3d6c2cbfaeb9.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/1b8436a0-65bf-42ae-9388-16ed053ec0a5.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/88ef8165-b7f2-40fd-8d97-381d901423a3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/247e45c2-b5f8-4a0a-91af-4d5b06f06685.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/a61cecd4-2567-4d58-85a0-5d357b6e331d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c09a92f8-3bf0-4c20-a740-02e2f36129d3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7b691d4f-69b5-449b-89d6-8da133c3d15d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/8bbd1509-8e3e-476c-b42d-719cabe29580.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/391c1a3d-9b63-4e42-9cd0-3a8dae1e2ce2.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/365f6102-1488-4002-a48f-ac0cceb8db22.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4d37d4ad-181a-4ea0-882b-c453bafde23d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5e212c49-c1a2-4091-a4d9-71ed9d6b4d1f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ad61d93f-90eb-42df-989f-bc5ffbbaee9a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ffbea534-edc1-4b24-ac9e-e0919cb22f08.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bd81714d-2b73-4d79-a172-74a3cba47aa3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/9ce2c689-f917-4c71-8bd3-4024c55a8c43.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4c2eb54b-15c0-42f2-afad-66ab5dcdff0c.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4df3c88d-e169-481f-9613-e0a014961a09.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/43ab1362-7611-42c7-868d-77fffc9a270f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/1f2f4ce8-1985-43a4-8c98-ca0c4439dcef.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d7e3d193-a194-40d9-a63b-05b30ac87957.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/fd5da7f9-56ea-4805-b4aa-54bb5fae361a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f18212c9-9ed0-454e-8743-a77f748c4409.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/e532faf2-46d9-49a7-be08-b29966ba4985.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/790b7e0b-a8e1-4565-a756-a8bd3346f638.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/183a7337-4a7c-4895-83f2-54316609ebdc.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5da8a81b-412e-41aa-bfcb-e0bc5f1e0741.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 405901407,
+            "dominant_saturated_color": "#B58342",
+            "large_ro": "https://a0.muscache.com/im/pictures/d0dd180b-78c3-4fd2-8880-e32fad953af5.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/d0dd180b-78c3-4fd2-8880-e32fad953af5.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AVFWTFtEN/z6+d7j4dXg5gFNTUFva3MODhOMlIjI3eQBKj4/IQ8IVzQVEw4Lqs7jJ3EUhy2yHf4AAAAASUVORK5CYII=",
+            "saturated_a11y_dark_color": "#B58342",
+            "scrim_color": "#112E2A"
+          },
+          "preview_amenities": "Wifi",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AVFWTFtEN/z6+d7j4dXg5gFNTUFva3MODhOMlIjI3eQBKj4/IQ8IVzQVEw4Lqs7jJ3EUhy2yHf4AAAAASUVORK5CYII=",
+          "property_type_id": 45,
+          "reviews_count": 22,
+          "room_and_property_type": "Private room in hostel",
+          "room_type_category": "private_room",
+          "room_type": "Private room",
+          "scrim_color": "#112E2A",
+          "show_structured_name": false,
+          "space_type": "Private room",
+          "star_rating": 4.5,
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 9219499,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/users/9219499/profile_pic/1396502535/original.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/users/9219499/profile_pic/1396502535/original.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Private room in hostel"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "กรุงเทพมหานคร, กรุงเทพมหานคร, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            1,
+            2,
+            4,
+            5,
+            21,
+            40,
+            41,
+            43,
+            45,
+            14
+          ],
+          "preview_amenity_names": [
+            "Wifi"
+          ],
+          "reviews": [],
+          "star_rating_color": "#008489",
+          "preview_tags": []
+        },
+        "pricing_quote": {
+          "can_instant_book": true,
+          "monthly_price_factor": 0.8,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$43 x 27 nights",
+                "price_items": [
+                  {
+                    "localized_title": "$39 x 27 nights",
+                    "price_items": [],
+                    "total": {
+                      "amount": 1040,
+                      "amount_formatted": "$1,040",
+                      "currency": "AUD",
+                      "is_micros_accuracy": false
+                    },
+                    "line_item_type": 2,
+                    "localized_explanation": "Average nightly rate is rounded."
+                  },
+                  {
+                    "localized_title": "Cleaning fee",
+                    "price_items": [],
+                    "total": {
+                      "amount": 14,
+                      "amount_formatted": "$14",
+                      "currency": "AUD",
+                      "is_micros_accuracy": false
+                    },
+                    "line_item_type": 5,
+                    "localized_explanation": "One-time fee charged by host to cover the cost of cleaning their space."
+                  },
+                  {
+                    "localized_title": "Service fee",
+                    "price_items": [],
+                    "total": {
+                      "amount": 136,
+                      "amount_formatted": "$136",
+                      "currency": "AUD",
+                      "is_micros_accuracy": false
+                    },
+                    "line_item_type": 4,
+                    "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+                  }
+                ],
+                "total": {
+                  "amount": 1156,
+                  "amount_formatted": "$1,156",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "10% weekly price discount",
+                "price_items": [],
+                "total": {
+                  "amount": -116,
+                  "amount_formatted": "-$116",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 7,
+                "localized_explanation": "’s place has weekly discounts for stays longer than 7 days."
+              },
+              {
+                "localized_title": "Cleaning fee",
+                "price_items": [],
+                "total": {
+                  "amount": 14,
+                  "amount_formatted": "$14",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 5,
+                "localized_explanation": "One-time fee charged by host to cover the cost of cleaning their space."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 136,
+                  "amount_formatted": "$136",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 1190,
+              "amount_formatted": "$1,190",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$39",
+          "rate": {
+            "amount": 39,
+            "amount_formatted": "$39",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 39,
+            "amount_formatted": "$39",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 0.9,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 1306,
+            "amount_formatted": "$1,306",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.742145297730714,
+        "lng": 100.55520942205196
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "2 baths",
+          "bathrooms": 2,
+          "bed_label": "2 beds",
+          "bedroom_label": "2 bedrooms",
+          "bedrooms": 2,
+          "beds": 2,
+          "city": "Bangkok",
+          "guest_label": "4 guests",
+          "host_languages": [],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/user/b315bd85-7eb6-4e4d-8d17-37998f0b34fe.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/user/b315bd85-7eb6-4e4d-8d17-37998f0b34fe.jpg?aki_policy=profile_x_medium",
+          "id": 9374445,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": false,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Entire apartment",
+              "2 beds"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.742145297730714,
+          "lng": 100.55520942205196,
+          "localized_city": "Bangkok",
+          "localized_neighborhood": "Lower Sukhumvit",
+          "name": "Avatar residence sukhumvit soi 7",
+          "neighborhood": "Lower Sukhumvit",
+          "person_capacity": 4,
+          "picture_count": 34,
+          "picture_url": "https://a0.muscache.com/im/pictures/39dab945-e939-494a-947d-00c3f3e1f269.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/39dab945-e939-494a-947d-00c3f3e1f269.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f5f019cc-ea3c-452d-ac88-5e041663886b.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/96447122-ac60-437c-a556-78939d1dc86e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4ef61886-88f3-445b-9604-16fbdb21eafc.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7df03fcb-5fb1-453a-a1f7-c7d7e70bc05f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/48581499-680c-4cbd-87ce-e43b3627d99e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/fe385a6d-dc3e-46aa-82bd-2b82551fef43.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5aea0cc1-0f3c-4c34-a10b-dfdec8fb8787.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/dfeac35d-6c01-4cd5-a037-4622a530a9e9.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/81c74e98-9d50-475b-beb6-4c74d438b187.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/dbb2144b-ed3f-48dc-b20b-fef1eaf11d6d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/43dda238-c3e3-4566-bbf6-f731bb591c1c.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/0f343665-4d9e-4965-ab6c-5654b5f1a921.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/3097dac2-460e-4860-8631-684c987e95da.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/55e7ee4f-1c45-4d9b-8164-cf8087d433e6.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2d89f15e-9394-4370-83ea-217ce82387c6.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5c4c87e3-4a20-4288-9819-ab43fe4e4b33.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2594f49e-da02-43eb-811c-9999e05bf6e1.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bc13c972-8c1d-404c-96bc-d14260bc1d55.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/502097d7-1120-4753-bab0-cf0a4ba872ba.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c2da8351-c2dd-4b77-9737-6c191d058334.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ca78ae25-efbb-4ff1-ab26-a57789b52002.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c3fb1a49-e569-4cf4-9a10-c144f9312aa3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2344c604-2024-4735-927c-238e7b70bceb.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/239cfa67-7452-495f-bd74-74d3cd6b4499.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/43fd8f1e-b251-4cb2-8e25-7d9f5440adeb.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5c94cbd2-32be-4c90-9fc4-bd9f231aaa4a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/64ff1603-7b42-479e-8584-c0aa9399a7f8.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/1c5e67d9-f370-4122-b4cc-26a6c88c602a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/0dfb0605-46c9-4836-8d7f-92c7a4a5cede.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 103156313,
+            "dominant_saturated_color": "#787878",
+            "large_ro": "https://a0.muscache.com/im/pictures/39dab945-e939-494a-947d-00c3f3e1f269.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/39dab945-e939-494a-947d-00c3f3e1f269.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AW9oUyAQEsrNyu/0+CUeIAEwKiFcWE0YGyD08vXY1NcBcWhTAPvxAAgXAfwDFBQU3PwSr2GHThsAAAAASUVORK5CYII=",
+            "saturated_a11y_dark_color": "#787878",
+            "scrim_color": "#2A2016"
+          },
+          "preview_amenities": "Pool, Wifi, Kitchen, Gym",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AW9oUyAQEsrNyu/0+CUeIAEwKiFcWE0YGyD08vXY1NcBcWhTAPvxAAgXAfwDFBQU3PwSr2GHThsAAAAASUVORK5CYII=",
+          "property_type_id": 1,
+          "reviews_count": 3,
+          "room_and_property_type": "Entire apartment",
+          "room_type_category": "entire_home",
+          "room_type": "Entire home/apt",
+          "scrim_color": "#2A2016",
+          "show_structured_name": false,
+          "space_type": "Entire apartment",
+          "star_rating": 3.5,
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 48639686,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/pictures/user/b315bd85-7eb6-4e4d-8d17-37998f0b34fe.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/user/b315bd85-7eb6-4e4d-8d17-37998f0b34fe.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Entire apartment"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Bangkok, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            32,
+            1,
+            33,
+            2,
+            3,
+            35,
+            4,
+            5,
+            37,
+            6,
+            38,
+            7,
+            39,
+            8,
+            40,
+            9,
+            43,
+            44,
+            14,
+            15,
+            47,
+            21,
+            25,
+            31
+          ],
+          "preview_amenity_names": [
+            "Pool",
+            "Wifi",
+            "Kitchen",
+            "Gym"
+          ],
+          "star_rating_color": "#008489",
+          "preview_tags": [
+            {
+              "name": "Able to cook",
+              "type": "SECONDARY"
+            }
+          ]
+        },
+        "pricing_quote": {
+          "can_instant_book": true,
+          "monthly_price_factor": 0.7,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$192 x 27 nights",
+                "price_items": [
+                  {
+                    "localized_title": "$138 x 27 nights",
+                    "price_items": [],
+                    "total": {
+                      "amount": 3735,
+                      "amount_formatted": "$3,735",
+                      "currency": "AUD",
+                      "is_micros_accuracy": false
+                    },
+                    "line_item_type": 2,
+                    "localized_explanation": "Average nightly rate is rounded."
+                  },
+                  {
+                    "localized_title": "Service fee",
+                    "price_items": [],
+                    "total": {
+                      "amount": 482,
+                      "amount_formatted": "$482",
+                      "currency": "AUD",
+                      "is_micros_accuracy": false
+                    },
+                    "line_item_type": 4,
+                    "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+                  }
+                ],
+                "total": {
+                  "amount": 5187,
+                  "amount_formatted": "$5,187",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "28% weekly price discount",
+                "price_items": [],
+                "total": {
+                  "amount": -1452,
+                  "amount_formatted": "-$1,452",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 7,
+                "localized_explanation": "’s place has weekly discounts for stays longer than 7 days."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 482,
+                  "amount_formatted": "$482",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 4217,
+              "amount_formatted": "$4,217",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$138",
+          "rate": {
+            "amount": 138,
+            "amount_formatted": "$138",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 138,
+            "amount_formatted": "$138",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 0.72,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 5669,
+            "amount_formatted": "$5,669",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.726591792593402,
+        "lng": 100.5611712394403
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "2 baths",
+          "bathrooms": 2,
+          "bed_label": "2 beds",
+          "bedroom_label": "2 bedrooms",
+          "bedrooms": 2,
+          "beds": 2,
+          "city": "Bangkok",
+          "guest_label": "5 guests",
+          "host_languages": [
+            "en",
+            "th"
+          ],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/5e1f9a22-25fd-4f61-b55d-5d9d6f19d2c6.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/5e1f9a22-25fd-4f61-b55d-5d9d6f19d2c6.jpg?aki_policy=profile_x_medium",
+          "id": 11703867,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": true,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Entire serviced apartment",
+              "2 beds"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.726591792593402,
+          "lng": 100.5611712394403,
+          "localized_city": "Bangkok",
+          "main_section_message": {
+            "icon_type": "icon_competing_views",
+            "headline": "POPULAR",
+            "type": "dated_views_people",
+            "body": "26 others are looking at this place for these dates."
+          },
+          "name": "2BR (A) MRT QueenSirikit/BPE",
+          "person_capacity": 5,
+          "picture_count": 34,
+          "picture_url": "https://a0.muscache.com/im/pictures/b60d888b-c25c-4bb5-a4c0-2c2d4e77e8f3.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/b60d888b-c25c-4bb5-a4c0-2c2d4e77e8f3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4fb1275d-a3c7-4bff-8aed-3ccd8c4f6574.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/18ba44a6-4129-40a5-9512-8a804a718924.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/62b7cc82-dfa7-4739-abae-8d0e283b17e6.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/0ed76ae6-6cdb-47be-a3eb-309ee0106b92.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/81f23521-fa84-4b8e-b69d-e5f64babb1fd.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ba9e9c58-9c16-4b10-b614-0f51da1e00bb.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/cebc6236-01e3-4a9f-91cc-c6e48a8cefcf.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4239b4f6-439d-4fb7-8076-3b745c9fafd9.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/46a64348-95bf-4b32-8fc4-499b6f2928b7.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f4e3ab24-e906-4cb0-97d4-4742dae66754.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/584f56b9-b73d-4f26-9199-6d413cf754e8.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/dda00bae-a82f-43a5-bc4f-9d271e5b7855.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/571b3ba7-7f56-48c9-a940-2db6100e1870.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/e97e7c56-0920-447d-ba19-25e560d136d0.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/8bc81cd1-a38d-4e59-819e-83cb13b478a2.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/0f358c31-4ac6-4f70-8da7-81ab0d44df46.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/143e7633-99f3-4e10-89ed-a6aabd667702.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/22b7e2d7-36a8-4e33-a8c6-79f1543aaca0.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/92a1dda6-21c1-48de-975c-b70516dcc61e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7f1bad8d-4c4c-4d77-85be-a23081048255.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/0892c423-e94b-4481-834c-80e490120bd2.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bdfc3d8a-f76d-4275-869f-0f482724d963.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4bdf5f3a-19d9-4304-aed9-e9e09fac8e24.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2d081f30-f37d-418e-b72e-2aaafb6f3dca.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ec705a04-1132-4f7c-83da-a51e4f866d03.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/731f527d-9362-4b18-87d5-af719720ee64.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/33055a76-9d60-4195-914a-a25d000a99e2.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bf171892-71ab-4494-b3b9-6454cdffc02e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4861bcde-50af-445b-892f-7e9a2ae9ff20.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 519889832,
+            "dominant_saturated_color": "#9E662E",
+            "large_ro": "https://a0.muscache.com/im/pictures/b60d888b-c25c-4bb5-a4c0-2c2d4e77e8f3.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/b60d888b-c25c-4bb5-a4c0-2c2d4e77e8f3.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AY+NizE0NuPg3vLj1NfX2AF7cmpueoOloZ/jz7zo5eQBi3ZkHyIp5My1BvnjwOADn+sblRqyOl0AAAAASUVORK5CYII=",
+            "saturated_a11y_dark_color": "#9E662E",
+            "scrim_color": "#23150C"
+          },
+          "preview_amenities": "Pool, Wifi, Kitchen, Gym",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AY+NizE0NuPg3vLj1NfX2AF7cmpueoOloZ/jz7zo5eQBi3ZkHyIp5My1BvnjwOADn+sblRqyOl0AAAAASUVORK5CYII=",
+          "property_type_id": 47,
+          "reviews_count": 2,
+          "room_and_property_type": "Entire serviced apartment",
+          "room_type_category": "entire_home",
+          "room_type": "Entire home/apt",
+          "scrim_color": "#23150C",
+          "show_structured_name": false,
+          "space_type": "Entire serviced apartment",
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 4654562,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/pictures/5e1f9a22-25fd-4f61-b55d-5d9d6f19d2c6.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/5e1f9a22-25fd-4f61-b55d-5d9d6f19d2c6.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Entire serviced apartment"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Bangkok, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            77,
+            15,
+            21,
+            85,
+            25,
+            89,
+            91,
+            31,
+            96,
+            35,
+            100,
+            38,
+            39,
+            40,
+            41,
+            43,
+            44,
+            45,
+            47,
+            51,
+            55
+          ],
+          "preview_amenity_names": [
+            "Pool",
+            "Wifi",
+            "Kitchen",
+            "Gym"
+          ],
+          "star_rating_color": "#008489",
+          "preview_tags": [
+            {
+              "name": "Able to cook",
+              "type": "SECONDARY"
+            },
+            {
+              "name": "self check in",
+              "type": "SECONDARY"
+            }
+          ]
+        },
+        "pricing_quote": {
+          "can_instant_book": false,
+          "monthly_price_factor": 1,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$100 x 27 nights",
+                "price_items": [],
+                "total": {
+                  "amount": 2698,
+                  "amount_formatted": "$2,698",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 348,
+                  "amount_formatted": "$348",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 3046,
+              "amount_formatted": "$3,046",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$100",
+          "rate": {
+            "amount": 100,
+            "amount_formatted": "$100",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 100,
+            "amount_formatted": "$100",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 1,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 3046,
+            "amount_formatted": "$3,046",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.745767155443485,
+        "lng": 100.55778159592386
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "1 bath",
+          "bathrooms": 1,
+          "bed_label": "1 bed",
+          "bedroom_label": "1 bedroom",
+          "bedrooms": 1,
+          "beds": 1,
+          "city": "Bangkok",
+          "guest_label": "2 guests",
+          "host_languages": [
+            "zh",
+            "en",
+            "th"
+          ],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/32e22597-4494-458b-a9b2-894aca5ea145.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/32e22597-4494-458b-a9b2-894aca5ea145.jpg?aki_policy=profile_x_medium",
+          "id": 14403086,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": true,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Entire serviced apartment",
+              "1 bed"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.745767155443485,
+          "lng": 100.55778159592386,
+          "localized_city": "Bangkok",
+          "localized_neighborhood": "Lower Sukhumvit",
+          "name": "Grand Deluxe Twin @ Aspira Hiptique S13 AMC",
+          "neighborhood": "Lower Sukhumvit",
+          "person_capacity": 2,
+          "picture_count": 40,
+          "picture_url": "https://a0.muscache.com/im/pictures/9673b191-ed57-40c8-85a0-1e44b43a2646.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/9673b191-ed57-40c8-85a0-1e44b43a2646.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/042e99bf-6de7-4822-9bdc-33610d878889.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7922e130-04a1-452b-9787-32491d633ba7.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/99b81558-a319-4ee8-9318-f10ecd9dc656.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/a801a873-b703-4339-bbd5-955a1faef3d6.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/e60be12c-480e-432f-9b85-8700858c10f9.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/fa7a29b2-98e4-4628-b12c-2417d9e518b1.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/427b4926-46d8-48d7-b682-3db63fe1d898.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/3ab66056-eabf-4bd7-8023-5106c2b5c6c5.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d8ae53fc-85c2-4253-b3b5-7c522a029750.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d4efc9c7-0082-4882-8ee6-0ba0e1012f77.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/afa50922-a37b-42fd-be83-6a8f14f1b89d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d2732b60-bd37-4bb4-ae65-305a16acc650.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/063ccae5-43f5-45fe-a2f1-84de5c159c4a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/0f06ede5-4361-43a1-9b19-324427b3ba73.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/293f1eda-2765-4249-bf4b-b5a5e5296afc.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/68d369da-6443-449d-b7ec-c5fd62364457.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/3c49f707-9fc8-45f9-8912-857f74fa7195.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/be17605f-fd90-4e84-89c7-5fee00facbf2.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b7d5e9fc-fd3b-4d79-95b8-e32c4df9e560.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/355a0d84-ed1c-4cf2-b44b-18dbd2238eec.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/47cffb6a-aab1-4c3b-9ff9-421f1cf10072.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/3f5a375e-a743-4563-b069-aa6987548b35.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f87acdd1-a2d0-4ddc-a2db-8b06cec1ce63.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7f52f82a-9a3c-416b-9215-fcb388c22eb3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/07c700b3-7ed4-4aa9-8a99-1e17ef682d17.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/6864f7d2-4b6a-40da-b0e4-9c2c33cc5ad8.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/85d27df2-d271-40ca-b46d-4eca765463bd.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/945d2098-937c-453c-9394-3d6d61c3d9bc.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/3159372e-9cf6-4c7d-b857-df18f0860b9f.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 194378109,
+            "dominant_saturated_color": "#787878",
+            "large_ro": "https://a0.muscache.com/im/pictures/9673b191-ed57-40c8-85a0-1e44b43a2646.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/9673b191-ed57-40c8-85a0-1e44b43a2646.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//Acu7pxMXI+zw9NvTwhcWFwHQw7P7/P3r6/jl3L7CytQBwJaD2/H49vDl+v/1CxAW2fMfcChIo4UAAAAASUVORK5CYII=",
+            "saturated_a11y_dark_color": "#787878",
+            "scrim_color": "#352413"
+          },
+          "preview_amenities": "Wifi",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//Acu7pxMXI+zw9NvTwhcWFwHQw7P7/P3r6/jl3L7CytQBwJaD2/H49vDl+v/1CxAW2fMfcChIo4UAAAAASUVORK5CYII=",
+          "property_type_id": 47,
+          "reviews_count": 11,
+          "room_and_property_type": "Entire serviced apartment",
+          "room_type_category": "entire_home",
+          "room_type": "Entire home/apt",
+          "scrim_color": "#352413",
+          "show_structured_name": false,
+          "space_type": "Entire serviced apartment",
+          "star_rating": 4,
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 6531105,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/pictures/32e22597-4494-458b-a9b2-894aca5ea145.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/32e22597-4494-458b-a9b2-894aca5ea145.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Entire serviced apartment"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Bangkok, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            1,
+            35,
+            4,
+            5,
+            38,
+            39,
+            40,
+            9,
+            41,
+            44,
+            45,
+            47,
+            51,
+            55,
+            31
+          ],
+          "preview_amenity_names": [
+            "Wifi"
+          ],
+          "star_rating_color": "#008489",
+          "preview_tags": [
+            {
+              "name": "self check in",
+              "type": "SECONDARY"
+            }
+          ]
+        },
+        "pricing_quote": {
+          "can_instant_book": false,
+          "monthly_price_factor": 1,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$73 x 27 nights",
+                "price_items": [],
+                "total": {
+                  "amount": 1963,
+                  "amount_formatted": "$1,963",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 253,
+                  "amount_formatted": "$253",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 2216,
+              "amount_formatted": "$2,216",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$73",
+          "rate": {
+            "amount": 73,
+            "amount_formatted": "$73",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 73,
+            "amount_formatted": "$73",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 1,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 2216,
+            "amount_formatted": "$2,216",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.731648700316196,
+        "lng": 100.56288547405708
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "1 bath",
+          "bathrooms": 1,
+          "bed_label": "1 bed",
+          "bedroom_label": "Studio",
+          "bedrooms": 0,
+          "beds": 1,
+          "city": "Bangkok",
+          "guest_label": "2 guests",
+          "host_languages": [
+            "zh",
+            "en",
+            "th"
+          ],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/32e22597-4494-458b-a9b2-894aca5ea145.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/32e22597-4494-458b-a9b2-894aca5ea145.jpg?aki_policy=profile_x_medium",
+          "id": 14646520,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": true,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Entire serviced apartment",
+              "1 bed"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.731648700316196,
+          "lng": 100.56288547405708,
+          "localized_city": "Bangkok",
+          "localized_neighborhood": "Klong Toey",
+          "name": "Studio @ Sukhumvit18/AIA",
+          "neighborhood": "Klong Toey",
+          "person_capacity": 2,
+          "picture_count": 22,
+          "picture_url": "https://a0.muscache.com/im/pictures/fc8fe961-4cec-404a-84c2-121ddf8d81ac.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/fc8fe961-4cec-404a-84c2-121ddf8d81ac.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5e7fcbaa-3933-4afd-90d5-7c221c39b2cc.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/9c5c0064-21e8-4339-b705-3f859404ad0d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/e731f900-7f3d-4571-92d3-313b37d5b085.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/accda25b-74cb-4288-b080-10d6c34bd436.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/dba67d64-d8a8-4036-94ef-77f5ac378bac.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4311612f-2793-42af-b252-2f2abc0263b3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c40e7709-058a-47d8-8b0e-51437907aa02.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d08d3c74-48eb-4b8d-90a7-07a86742191f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bde3d3c3-dc41-40af-8eed-61a8f849adb7.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/80fd4489-1a8d-4043-a3f2-1856cb626065.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/fb0f371c-59f9-4569-abab-5e0799de4841.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/1c67f78e-3636-4978-b7af-b4666a004faa.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b8009e33-729b-427f-a8f1-8aa53cc4f910.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bff0a0d0-e6b7-416a-87a7-39cc566da347.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/98fcb623-82df-4d1a-b730-9e6bd49661e7.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/0da0b3af-df38-405b-8199-1e9c711247e5.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d5829ac9-5ee6-4b96-8216-d1c52365762a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b5f7c7f4-339c-48d8-987c-fbd214fba5d0.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4438f941-c840-49d8-aef4-68263764de6f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/371d82c3-df0a-460e-8458-70b1d8bf6048.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/459edd88-dd1e-405b-a1b3-8ece3c4e164c.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 200246136,
+            "dominant_saturated_color": "#787878",
+            "large_ro": "https://a0.muscache.com/im/pictures/fc8fe961-4cec-404a-84c2-121ddf8d81ac.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/fc8fe961-4cec-404a-84c2-121ddf8d81ac.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AZuYegoIESIZEtbf8ba4vgG1vLfQw7gzMDnWz8HO3NkBj5Wa+eHjICIp/v3/+AP5RRYav9ZL9eIAAAAASUVORK5CYII=",
+            "saturated_a11y_dark_color": "#787878",
+            "scrim_color": "#3E2E2E"
+          },
+          "preview_amenities": "Wifi",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AZuYegoIESIZEtbf8ba4vgG1vLfQw7gzMDnWz8HO3NkBj5Wa+eHjICIp/v3/+AP5RRYav9ZL9eIAAAAASUVORK5CYII=",
+          "property_type_id": 47,
+          "reviews_count": 26,
+          "room_and_property_type": "Entire serviced apartment",
+          "room_type_category": "entire_home",
+          "room_type": "Entire home/apt",
+          "scrim_color": "#3E2E2E",
+          "show_structured_name": false,
+          "space_type": "Entire serviced apartment",
+          "star_rating": 4.5,
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 6531105,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/pictures/32e22597-4494-458b-a9b2-894aca5ea145.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/32e22597-4494-458b-a9b2-894aca5ea145.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Entire serviced apartment"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Bangkok, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            1,
+            35,
+            4,
+            5,
+            38,
+            39,
+            40,
+            9,
+            41,
+            44,
+            45,
+            47,
+            51,
+            55,
+            31
+          ],
+          "preview_amenity_names": [
+            "Wifi"
+          ],
+          "reviews": [],
+          "star_rating_color": "#008489",
+          "preview_tags": [
+            {
+              "name": "self check in",
+              "type": "SECONDARY"
+            }
+          ]
+        },
+        "pricing_quote": {
+          "can_instant_book": true,
+          "monthly_price_factor": 1,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$66 x 27 nights",
+                "price_items": [],
+                "total": {
+                  "amount": 1782,
+                  "amount_formatted": "$1,782",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 230,
+                  "amount_formatted": "$230",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 2012,
+              "amount_formatted": "$2,012",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$66",
+          "rate": {
+            "amount": 66,
+            "amount_formatted": "$66",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 66,
+            "amount_formatted": "$66",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 1,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 2012,
+            "amount_formatted": "$2,012",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.740452200915112,
+        "lng": 100.55625289713475
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "1 private bath",
+          "bathrooms": 1,
+          "bed_label": "2 beds",
+          "bedroom_label": "Studio",
+          "bedrooms": 0,
+          "beds": 2,
+          "city": "Khet Watthana",
+          "guest_label": "2 guests",
+          "host_languages": [
+            "en",
+            "th"
+          ],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/users/9219499/profile_pic/1396502535/original.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/users/9219499/profile_pic/1396502535/original.jpg?aki_policy=profile_x_medium",
+          "id": 21710965,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": false,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Hotel room",
+              "2 beds"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.740452200915112,
+          "lng": 100.55625289713475,
+          "localized_city": "Khet Watthana",
+          "localized_neighborhood": "Lower Sukhumvit",
+          "name": "Private room for 2 persons at Nana station",
+          "neighborhood": "Lower Sukhumvit",
+          "person_capacity": 2,
+          "picture_count": 34,
+          "picture_url": "https://a0.muscache.com/im/pictures/9782ea96-5966-409a-9785-c027a9a15333.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/9782ea96-5966-409a-9785-c027a9a15333.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/aa146b7e-f72e-459d-8978-f55584b054bf.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/baee13bb-cbe0-41c8-8b1d-bd5aec987470.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b11f4ad6-ffb0-47a4-b0ed-37bea1d9d517.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5c19b7e7-1566-44f5-adcd-2e2e5d537991.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/88bf4c52-19fa-4b2e-bfad-cfab52281a00.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c9760c6b-9140-4836-a6bb-062f84fafa12.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f92de461-b973-44da-a7f4-3cf0f94c54b9.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/07398f85-ed5b-4a17-96a3-3487d37fb12e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d5cbd632-4d4f-47f3-b4a1-f041afdcbffd.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7042d2c7-bb53-47dc-bfb1-90e5d1dca7d3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/9528e3ab-b6c9-4f02-9b1c-4c02ab7533aa.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/86b0f392-164d-4c90-a7fc-fd51adf3cc7a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c329198e-e2db-474e-a517-c56746795422.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4faf6f1f-9547-4090-8219-df0411d5e696.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2e8a2f53-f3c2-495b-a50b-75dfe9a036ae.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5bbf705c-a86f-405e-af84-6d41fd16ce07.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d87df4dd-a411-40a7-8ed5-4d6a7f9cee00.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/086a3d14-6a40-4756-b53a-4a81508aea65.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d2a4f7cb-e835-4ff4-bf6c-e3e34cd83f4b.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b6f272fa-cc76-4ee2-a101-a60d1dfd3a93.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/19cfb93c-c3a0-437b-8fcd-4f0c9828d204.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/aa7de27f-76e9-45a3-9606-cf1caeb2ec34.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5cd5f13f-d46d-4669-9daf-e05d21dca3d0.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/844cb2ed-9ea4-4b34-9514-ce55932c0b39.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2b297fad-73de-46cf-a937-b26c5d5be3e0.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/3692b95d-6d24-4463-af9c-e8d23901ec6d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/02a62644-1611-4655-b27b-d0a8cf170760.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2f1041a9-416f-47da-9bd7-a1186e3a2768.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/50b4b9f7-5cd9-47a8-b8b6-4542d07883ff.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 408054964,
+            "dominant_saturated_color": "#C07B22",
+            "large_ro": "https://a0.muscache.com/im/pictures/9782ea96-5966-409a-9785-c027a9a15333.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/9782ea96-5966-409a-9785-c027a9a15333.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//Ac3IyQYA+QkUIvr/Buvo6AHSz9QEBAT9/P0IBgfj1NQBt6WQGSM47ejq+fv739rTAY95ZUVZcuTe3vr5/O7p4k3YJdHXmKGpAAAAAElFTkSuQmCC",
+            "saturated_a11y_dark_color": "#C07B22",
+            "scrim_color": "#32110A"
+          },
+          "preview_amenities": "Wifi",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//Ac3IyQYA+QkUIvr/Buvo6AHSz9QEBAT9/P0IBgfj1NQBt6WQGSM47ejq+fv739rTAY95ZUVZcuTe3vr5/O7p4k3YJdHXmKGpAAAAAElFTkSuQmCC",
+          "property_type_id": 43,
+          "reviews_count": 0,
+          "room_and_property_type": "Room in boutique hotel",
+          "room_type_category": "private_room",
+          "room_type": "Private room",
+          "scrim_color": "#32110A",
+          "show_structured_name": false,
+          "space_type": "Hotel room",
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 9219499,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/users/9219499/profile_pic/1396502535/original.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/users/9219499/profile_pic/1396502535/original.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Room in boutique hotel"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Khet Watthana, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            1,
+            4,
+            5,
+            21,
+            39,
+            40,
+            41,
+            42,
+            44,
+            45,
+            47
+          ],
+          "preview_amenity_names": [
+            "Wifi"
+          ],
+          "star_rating_color": "#008489",
+          "preview_tags": []
+        },
+        "pricing_quote": {
+          "can_instant_book": true,
+          "monthly_price_factor": 1,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$61 x 27 nights",
+                "price_items": [],
+                "total": {
+                  "amount": 1652,
+                  "amount_formatted": "$1,652",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 213,
+                  "amount_formatted": "$213",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 1865,
+              "amount_formatted": "$1,865",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$61",
+          "rate": {
+            "amount": 61,
+            "amount_formatted": "$61",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 61,
+            "amount_formatted": "$61",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 1,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 1865,
+            "amount_formatted": "$1,865",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.741529242062057,
+        "lng": 100.5548675560566
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "1 private bath",
+          "bathrooms": 1,
+          "bed_label": "1 bed",
+          "bedroom_label": "Studio",
+          "bedrooms": 0,
+          "beds": 1,
+          "city": "Khet Watthana",
+          "guest_label": "2 guests",
+          "host_languages": [
+            "en",
+            "th"
+          ],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/users/9219499/profile_pic/1396502535/original.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/users/9219499/profile_pic/1396502535/original.jpg?aki_policy=profile_x_medium",
+          "id": 21724694,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": false,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Hotel room",
+              "1 bed"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.741529242062057,
+          "lng": 100.5548675560566,
+          "localized_city": "Khet Watthana",
+          "localized_neighborhood": "Lower Sukhumvit",
+          "name": "Private room for 2 persons at Nana station",
+          "neighborhood": "Lower Sukhumvit",
+          "person_capacity": 2,
+          "picture_count": 32,
+          "picture_url": "https://a0.muscache.com/im/pictures/48ebe73b-60a5-4fb2-8327-822ef7b7a547.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/48ebe73b-60a5-4fb2-8327-822ef7b7a547.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/9da41678-e13f-4a93-9d73-87a1e55ba6a2.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/78400876-6f02-4e36-bc59-d54f4291291a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c6c51772-226c-4a13-92fc-0608721b619d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/854ebeaa-865b-4812-b936-980c36e2df81.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/82354cbb-2de2-4965-9bc7-6ccead313ea3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2087f573-43c1-4dac-a479-93e4279ae365.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2ed3adf7-b6a0-49c3-8a08-10c4872856f7.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/71be0cbb-794e-4eb5-bd03-c86dd11e8fe1.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/96a8036b-6723-4d92-b38e-2cd773505490.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/26f3600f-0ff7-477f-b482-1e708edab674.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/684fce22-e50b-48c7-bb70-5d680cb02c55.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ef33f6c3-ab66-48d7-86db-3b1e6ba7487f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/e908f88d-3a9b-4a2b-b105-51f3b53bc807.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/46c5c049-59b9-456d-801b-8626b34c93e1.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/460e15b6-9f7e-4c5f-892c-5fe8d34df5a5.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/59a77415-38d5-4ec8-a332-503e4be2569f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5bc82c12-496e-4645-ab73-4eea97eac6c4.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/844b5e36-455e-4d6e-ad72-f0ed2cd5830f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4fdad0e1-e21b-4f9c-98bc-86e99f1eba7f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/71dda043-0d6b-4a1b-9ae9-0f60846c06aa.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/209601e4-14de-4a8c-af82-e7fbcc1c5905.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f3c9ee96-46a1-422b-a3f1-c3fc801dada3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/48f53cdb-3969-4951-b5a6-a6677001c762.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/58d8a362-f73f-468d-8407-253acb552fbb.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/91612257-9885-434b-ada3-d7c64c0c7187.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/9e07a874-8714-4e0b-9206-7a636fb4581e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/62a7ccb3-aaa3-4157-b209-62a0371e228e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/65193191-581f-428e-b598-3987dce232fb.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/472ed30a-e019-4f21-9849-b868d6d8a043.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 408420301,
+            "dominant_saturated_color": "#D83D04",
+            "large_ro": "https://a0.muscache.com/im/pictures/48ebe73b-60a5-4fb2-8327-822ef7b7a547.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/48ebe73b-60a5-4fb2-8327-822ef7b7a547.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AeFrM/EqSOIPOM7W1Af86gGvfVEhMlbqBSCysaPv7O0BUhwJKThFIzlQ0dTir7GcJocWw4tnykQAAAAASUVORK5CYII=",
+            "saturated_a11y_dark_color": "#D83D04",
+            "scrim_color": "#190707"
+          },
+          "preview_amenities": "Wifi",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AeFrM/EqSOIPOM7W1Af86gGvfVEhMlbqBSCysaPv7O0BUhwJKThFIzlQ0dTir7GcJocWw4tnykQAAAAASUVORK5CYII=",
+          "property_type_id": 43,
+          "reviews_count": 8,
+          "room_and_property_type": "Room in boutique hotel",
+          "room_type_category": "private_room",
+          "room_type": "Private room",
+          "scrim_color": "#190707",
+          "show_structured_name": false,
+          "space_type": "Hotel room",
+          "star_rating": 4.5,
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 9219499,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/users/9219499/profile_pic/1396502535/original.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/users/9219499/profile_pic/1396502535/original.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Room in boutique hotel"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Khet Watthana, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            1,
+            4,
+            5,
+            21,
+            39,
+            40,
+            41,
+            42,
+            44,
+            45,
+            47
+          ],
+          "preview_amenity_names": [
+            "Wifi"
+          ],
+          "reviews": [],
+          "star_rating_color": "#008489",
+          "preview_tags": []
+        },
+        "pricing_quote": {
+          "can_instant_book": true,
+          "monthly_price_factor": 1,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$61 x 27 nights",
+                "price_items": [],
+                "total": {
+                  "amount": 1660,
+                  "amount_formatted": "$1,660",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 214,
+                  "amount_formatted": "$214",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 1874,
+              "amount_formatted": "$1,874",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$61",
+          "rate": {
+            "amount": 61,
+            "amount_formatted": "$61",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 61,
+            "amount_formatted": "$61",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 1,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 1874,
+            "amount_formatted": "$1,874",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.728375815274852,
+        "lng": 100.55997482705736
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "1 private bath",
+          "bathrooms": 1,
+          "bed_label": "1 bed",
+          "bedroom_label": "1 bedroom",
+          "bedrooms": 1,
+          "beds": 1,
+          "city": "Khet Khlong Toei",
+          "guest_label": "2 guests",
+          "host_languages": [],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/user/f31cd8d1-bf63-467e-bf96-a911e5a2e476.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/user/f31cd8d1-bf63-467e-bf96-a911e5a2e476.jpg?aki_policy=profile_x_medium",
+          "id": 22296124,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": true,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Private room",
+              "1 bed"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.728375815274852,
+          "lng": 100.55997482705736,
+          "localized_city": "Khet Khlong Toei",
+          "localized_neighborhood": "Klong Toey",
+          "name": "Lazy Blue Private room near BTS asok-kingsize bed",
+          "neighborhood": "Klong Toey",
+          "person_capacity": 2,
+          "picture_count": 21,
+          "picture_url": "https://a0.muscache.com/im/pictures/aa79e025-be13-4788-8017-7d32856e839a.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/aa79e025-be13-4788-8017-7d32856e839a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5197229d-196b-43b1-a062-b67884bdf895.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/17de7560-d069-451f-9ed0-a7782f87c7f0.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4aaa32f1-2f5b-4b34-81cd-1bdd38797b40.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b39316d2-ec41-489a-ab68-3fdc93e045cb.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4f7fbad2-6503-43e8-a80e-017d839f10bd.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/9f8c517e-01e7-4950-9986-f0892e5a4492.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/3c43c299-b469-48a9-9c9b-b8dbfa007a98.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/71c0a625-2ca2-4881-8b77-aa73d24e3419.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d372abba-92bc-49ac-8a73-fe94dbd97f69.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/a693a016-6615-474b-ad9e-d92630ae25ab.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c4cd0452-e8b0-4097-a1af-3ed8dbe0962e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/52a7333c-e2d7-4b5e-805c-14a470d16260.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/29623f07-e3de-4e4f-a1fc-3b0c2aa61603.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b958ccb0-a6f5-46bc-a6d2-55d8aa48c9fb.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/af0d8184-40e0-49d0-9488-900b8bbf76f0.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/fb940cad-5ab4-4c12-b19d-5aa5771a44bd.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/3fb071f4-a502-4175-9d56-e5eabdf3fafb.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/20481368-aa68-40f4-a1a4-a385e5cdc33d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5480ec38-cc75-4a09-9779-71fd1c4b88c1.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/abcb4239-d421-408b-9dad-6110aec11a81.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 422800466,
+            "dominant_saturated_color": "#E8B684",
+            "large_ro": "https://a0.muscache.com/im/pictures/aa79e025-be13-4788-8017-7d32856e839a.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/aa79e025-be13-4788-8017-7d32856e839a.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//AdSgdv0BCOzu9Ofp+uLg6QG7oZDs+vz2AADf1u8U8+kBqIJ11/EIvbi58vLvJyIiAXo9OtrxA9Dbze36+hQRFSiyJr0vsqBpAAAAAElFTkSuQmCC",
+            "saturated_a11y_dark_color": "#E8B684",
+            "scrim_color": "#14050C"
+          },
+          "preview_amenities": "Wifi, Kitchen",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//AdSgdv0BCOzu9Ofp+uLg6QG7oZDs+vz2AADf1u8U8+kBqIJ11/EIvbi58vLvJyIiAXo9OtrxA9Dbze36+hQRFSiyJr0vsqBpAAAAAElFTkSuQmCC",
+          "property_type_id": 45,
+          "reviews_count": 1,
+          "room_and_property_type": "Private room in hostel",
+          "room_type_category": "private_room",
+          "room_type": "Private room",
+          "scrim_color": "#14050C",
+          "show_structured_name": false,
+          "space_type": "Private room",
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 162958485,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/pictures/user/f31cd8d1-bf63-467e-bf96-a911e5a2e476.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/user/f31cd8d1-bf63-467e-bf96-a911e5a2e476.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Private room in hostel"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Khet Khlong Toei, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            32,
+            33,
+            34,
+            4,
+            5,
+            37,
+            39,
+            8,
+            40,
+            41,
+            42,
+            11,
+            45,
+            16
+          ],
+          "preview_amenity_names": [
+            "Wifi",
+            "Kitchen"
+          ],
+          "star_rating_color": "#008489",
+          "preview_tags": [
+            {
+              "name": "Able to cook",
+              "type": "SECONDARY"
+            }
+          ]
+        },
+        "pricing_quote": {
+          "can_instant_book": false,
+          "monthly_price_factor": 0.8,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$48 x 27 nights",
+                "price_items": [
+                  {
+                    "localized_title": "$43 x 27 nights",
+                    "price_items": [],
+                    "total": {
+                      "amount": 1169,
+                      "amount_formatted": "$1,169",
+                      "currency": "AUD",
+                      "is_micros_accuracy": false
+                    },
+                    "line_item_type": 2,
+                    "localized_explanation": "Average nightly rate is rounded."
+                  },
+                  {
+                    "localized_title": "Service fee",
+                    "price_items": [],
+                    "total": {
+                      "amount": 151,
+                      "amount_formatted": "$151",
+                      "currency": "AUD",
+                      "is_micros_accuracy": false
+                    },
+                    "line_item_type": 4,
+                    "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+                  }
+                ],
+                "total": {
+                  "amount": 1299,
+                  "amount_formatted": "$1,299",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "10% weekly price discount",
+                "price_items": [],
+                "total": {
+                  "amount": -130,
+                  "amount_formatted": "-$130",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 7,
+                "localized_explanation": "’s place has weekly discounts for stays longer than 7 days."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 151,
+                  "amount_formatted": "$151",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 1320,
+              "amount_formatted": "$1,320",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$43",
+          "rate": {
+            "amount": 43,
+            "amount_formatted": "$43",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 43,
+            "amount_formatted": "$43",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 0.9,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 1450,
+            "amount_formatted": "$1,450",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.74123533578263,
+        "lng": 100.55442866694078
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "1 bath",
+          "bathrooms": 1,
+          "bed_label": "1 bed",
+          "bedroom_label": "1 bedroom",
+          "bedrooms": 1,
+          "beds": 1,
+          "city": "Khet Watthana",
+          "guest_label": "2 guests",
+          "host_languages": [
+            "zh",
+            "en",
+            "fr",
+            "th"
+          ],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/c2f08119-ddaf-464a-9aea-0a618f525367.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/c2f08119-ddaf-464a-9aea-0a618f525367.jpg?aki_policy=profile_x_medium",
+          "id": 23185922,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": true,
+          "is_new_listing": false,
+          "is_superhost": true,
+          "kicker_content": {
+            "messages": [
+              "Entire serviced apartment",
+              "1 bed"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.74123533578263,
+          "lng": 100.55442866694078,
+          "localized_city": "Khet Watthana",
+          "localized_neighborhood": "Lower Sukhumvit",
+          "name": "(Delight 1BR) Prime Area! 150m to BTS NANA",
+          "neighborhood": "Lower Sukhumvit",
+          "person_capacity": 2,
+          "picture_count": 51,
+          "picture_url": "https://a0.muscache.com/im/pictures/058f697f-649a-4b67-9a1c-b5e4b319bd4e.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/058f697f-649a-4b67-9a1c-b5e4b319bd4e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/85be1b96-ed3b-4fad-bd54-98aa266fa57d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/37757ab5-e306-429b-a2e0-f1f5e546c722.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2abfd563-5954-4330-bf12-4561a802a9d2.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/6bbd4a10-5d52-4e92-bcbf-117785752f52.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/424b6444-1a9a-4894-af65-78f365c8f581.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/e80ac9fd-dae3-4541-8791-431de999fd27.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/3fed1de0-91e9-4cce-91e3-6dd5af8bf3f7.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/64816980-214c-4c49-8239-90ce8342ee8b.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/23e93891-502c-4b61-8cab-2a003769eae7.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5718ddad-33a2-4f29-abaa-e80edf5bc1a1.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/764b08e0-a263-4007-b3df-07ea8cd1a0c5.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b59e0d62-ff32-4ce9-9f7e-0445a4a835f3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/50f49435-fcc5-40a7-b853-d0eecf8a9a49.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f7b25450-00c6-49dd-9fe6-ffaaa611508d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/af3319b8-7b20-4c8b-a5f0-3fc5ad5e5828.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/de8f1f06-5a4d-44e8-923b-402781e77004.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/56aab5a2-e78d-4527-8383-92f91ac7b372.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/873c6845-b7f1-4442-9031-6d00b2691916.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ec539e0d-a2df-4d4c-98e5-e0b576059eb5.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/cdac38cf-3272-485c-a870-27923c9dfc9a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/aa395070-e098-4a02-b5f4-197b306dc3e4.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7defc7f9-2559-4014-b9b6-45c728853ab8.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ea031d08-b1ed-4525-ac5d-03c18cd81c85.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/29233bc1-270c-4326-abc0-460ee361fe06.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/8f9ca8b7-3d68-4081-b9c3-ec8bf22a1a27.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/53a151a8-01db-48d5-985b-3501a6009865.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/e7bfe015-283d-4dfa-8040-5676cf7b7b76.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/75a58778-3271-443d-a76a-f418544de2d4.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d1d2cb42-f6df-4988-86c1-26737b8673cc.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 592070906,
+            "dominant_saturated_color": "#E0C67E",
+            "large_ro": "https://a0.muscache.com/im/pictures/058f697f-649a-4b67-9a1c-b5e4b319bd4e.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/058f697f-649a-4b67-9a1c-b5e4b319bd4e.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//Abizmvz9CgELHufj2/f4+AHAsH7k7w3y+g/19fr3BRkBTEhCEhQYOzYs/wgY7/L3jrwZLEUSQRIAAAAASUVORK5CYII=",
+            "saturated_a11y_dark_color": "#E0C67E",
+            "scrim_color": "#33302B"
+          },
+          "preview_amenities": "Pool, Wifi, Kitchen, Gym",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//Abizmvz9CgELHufj2/f4+AHAsH7k7w3y+g/19fr3BRkBTEhCEhQYOzYs/wgY7/L3jrwZLEUSQRIAAAAASUVORK5CYII=",
+          "property_type_id": 47,
+          "reviews_count": 5,
+          "room_and_property_type": "Entire serviced apartment",
+          "room_type_category": "entire_home",
+          "room_type": "Entire home/apt",
+          "scrim_color": "#33302B",
+          "show_structured_name": false,
+          "space_type": "Entire serviced apartment",
+          "star_rating": 4.5,
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 62257044,
+            "is_superhost": true,
+            "picture_url": "https://a0.muscache.com/im/pictures/c2f08119-ddaf-464a-9aea-0a618f525367.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/c2f08119-ddaf-464a-9aea-0a618f525367.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Entire serviced apartment"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Khet Watthana, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            73,
+            77,
+            15,
+            21,
+            85,
+            89,
+            91,
+            93,
+            94,
+            33,
+            98,
+            35,
+            36,
+            100,
+            37,
+            101,
+            38,
+            39,
+            103,
+            40,
+            104,
+            41,
+            42,
+            44,
+            45,
+            109,
+            46,
+            47,
+            51,
+            53
+          ],
+          "preview_amenity_names": [
+            "Pool",
+            "Wifi",
+            "Kitchen",
+            "Gym"
+          ],
+          "reviews": [],
+          "star_rating_color": "#008489",
+          "preview_tags": [
+            {
+              "name": "superhost",
+              "type": "PRIMARY"
+            },
+            {
+              "name": "Able to cook",
+              "type": "SECONDARY"
+            },
+            {
+              "name": "self check in",
+              "type": "SECONDARY"
+            }
+          ]
+        },
+        "pricing_quote": {
+          "can_instant_book": false,
+          "monthly_price_factor": 1,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$89 x 27 nights",
+                "price_items": [],
+                "total": {
+                  "amount": 2411,
+                  "amount_formatted": "$2,411",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "Cleaning fee",
+                "price_items": [],
+                "total": {
+                  "amount": 26,
+                  "amount_formatted": "$26",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 5,
+                "localized_explanation": "One-time fee charged by host to cover the cost of cleaning their space."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 314,
+                  "amount_formatted": "$314",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 2751,
+              "amount_formatted": "$2,751",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$89",
+          "rate": {
+            "amount": 89,
+            "amount_formatted": "$89",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 89,
+            "amount_formatted": "$89",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 1,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 2751,
+            "amount_formatted": "$2,751",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.727151397987223,
+        "lng": 100.56159152908971
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "2 baths",
+          "bathrooms": 2,
+          "bed_label": "2 beds",
+          "bedroom_label": "2 bedrooms",
+          "bedrooms": 2,
+          "beds": 2,
+          "city": "Khet Khlong Toei",
+          "guest_label": "5 guests",
+          "host_languages": [
+            "en",
+            "th"
+          ],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/5e1f9a22-25fd-4f61-b55d-5d9d6f19d2c6.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/5e1f9a22-25fd-4f61-b55d-5d9d6f19d2c6.jpg?aki_policy=profile_x_medium",
+          "id": 23895063,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": true,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Entire serviced apartment",
+              "2 beds"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.727151397987223,
+          "lng": 100.56159152908971,
+          "localized_city": "Khet Khlong Toei",
+          "localized_neighborhood": "Klong Toey",
+          "name": "2BR (B) MRT QueenSirikit/BPD",
+          "neighborhood": "Klong Toey",
+          "person_capacity": 5,
+          "picture_count": 29,
+          "picture_url": "https://a0.muscache.com/im/pictures/16b1eb9b-d07c-4f96-a13c-a3b69207341c.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/16b1eb9b-d07c-4f96-a13c-a3b69207341c.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d4b793f9-c348-45ad-ae60-b697e1bad580.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/9513c8f7-692e-4268-b152-704bfc3a8832.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/84c49828-a61b-41ef-ae63-b275f418adbf.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f3629cc0-1663-4d18-b801-abb88b0ee621.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/38a66c5f-6275-4fd2-a8b5-178a4566547c.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b501ac59-b2f2-429b-bc9a-e9e521b66e1c.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/8b706df0-4b56-401a-82f8-3cf82afd73a4.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/58958dbe-da62-4194-b2d1-078726bd2788.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/1ab00e74-a717-40c1-8f13-564a4d852dbb.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f017b7da-4631-4b0f-9132-e293942a54a4.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/dfcf0245-0e81-42de-b07d-ff2a03203bda.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2739935b-bc71-4b57-9006-226c5c6ac3af.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d82e728b-4743-4f9f-92fb-e655028ddd11.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ce54f25d-40ce-4a5b-8a1c-6b93a272030c.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ba43dff3-2544-4a99-be2a-9f93a1caf325.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/21af6a90-9efc-4912-bd3e-05fba3b5c238.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7df768e4-a336-4eb0-a582-acbd33ca9281.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/99b4b73c-98e4-44b9-b235-9fead1b647d8.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d2b2184c-b5b9-4ee2-ae9d-429045d28a30.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/eae48d0b-b5e3-41ef-9321-e55a567b11ad.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/881f0ec2-56ed-4405-903f-9c58443e8e92.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ef38c12b-1b79-4cd0-9070-d6b8d962ae83.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/21137e87-7e20-4c92-a44a-27073b4fd1c9.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2fbdb0d8-d680-4a52-9247-b27728a7331b.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/47771e9f-547d-4fb3-b9bf-311ceb712547.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/8d86d1ed-3457-435d-9a1a-56a363884f98.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bac6e0b4-c87d-4634-937d-bd6f008a2666.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/15f8e4e7-30d3-4c82-8757-db8a77c3235e.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 465923190,
+            "dominant_saturated_color": "#6E431E",
+            "large_ro": "https://a0.muscache.com/im/pictures/16b1eb9b-d07c-4f96-a13c-a3b69207341c.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/16b1eb9b-d07c-4f96-a13c-a3b69207341c.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAOElEQVQIHWMsSQrkFZU1t7RQ1DIWl5BmjHLRY+OVMHYM8PT24BcSZiz31/jHxBuQ0fiHje/e/TsA6cgMgjqf1YEAAAAASUVORK5CYII=",
+            "saturated_a11y_dark_color": "#6E431E",
+            "scrim_color": "#382A21"
+          },
+          "preview_amenities": "Pool, Wifi, Kitchen, Gym",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAOElEQVQIHWMsSQrkFZU1t7RQ1DIWl5BmjHLRY+OVMHYM8PT24BcSZiz31/jHxBuQ0fiHje/e/TsA6cgMgjqf1YEAAAAASUVORK5CYII=",
+          "property_type_id": 47,
+          "reviews_count": 5,
+          "room_and_property_type": "Entire serviced apartment",
+          "room_type_category": "entire_home",
+          "room_type": "Entire home/apt",
+          "scrim_color": "#382A21",
+          "show_structured_name": false,
+          "space_type": "Entire serviced apartment",
+          "star_rating": 4,
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 4654562,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/pictures/5e1f9a22-25fd-4f61-b55d-5d9d6f19d2c6.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/5e1f9a22-25fd-4f61-b55d-5d9d6f19d2c6.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Entire serviced apartment"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Khet Khlong Toei, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            1,
+            2,
+            35,
+            4,
+            100,
+            5,
+            38,
+            7,
+            39,
+            8,
+            40,
+            9,
+            41,
+            44,
+            15,
+            47,
+            51,
+            21,
+            55,
+            25,
+            89,
+            90,
+            91,
+            31
+          ],
+          "preview_amenity_names": [
+            "Pool",
+            "Wifi",
+            "Kitchen",
+            "Gym"
+          ],
+          "star_rating_color": "#008489",
+          "preview_tags": [
+            {
+              "name": "Able to cook",
+              "type": "SECONDARY"
+            },
+            {
+              "name": "self check in",
+              "type": "SECONDARY"
+            }
+          ]
+        },
+        "pricing_quote": {
+          "can_instant_book": true,
+          "monthly_price_factor": 1,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$100 x 27 nights",
+                "price_items": [],
+                "total": {
+                  "amount": 2698,
+                  "amount_formatted": "$2,698",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 348,
+                  "amount_formatted": "$348",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 3046,
+              "amount_formatted": "$3,046",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$100",
+          "rate": {
+            "amount": 100,
+            "amount_formatted": "$100",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 100,
+            "amount_formatted": "$100",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 1,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 3046,
+            "amount_formatted": "$3,046",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.740414,
+        "lng": 100.556664
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "1 private bath",
+          "bathrooms": 1,
+          "bed_label": "2 beds",
+          "bedroom_label": "1 bedroom",
+          "bedrooms": 1,
+          "beds": 2,
+          "city": "Khet Khlong Toei",
+          "guest_label": "4 guests",
+          "host_languages": [],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/693f2207-6718-49a2-af1b-43c65ea7bc03.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/693f2207-6718-49a2-af1b-43c65ea7bc03.jpg?aki_policy=profile_x_medium",
+          "id": 24813978,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": false,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Hotel room",
+              "2 beds"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.740414,
+          "lng": 100.556664,
+          "localized_city": "Khet Khlong Toei",
+          "localized_neighborhood": "Lower Sukhumvit",
+          "name": "604-605@KK 11 BOUTIQUE INN",
+          "neighborhood": "Lower Sukhumvit",
+          "person_capacity": 4,
+          "picture_count": 20,
+          "picture_url": "https://a0.muscache.com/im/pictures/2179d6fd-dd9c-4fb4-8c0e-4325374d05d0.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/2179d6fd-dd9c-4fb4-8c0e-4325374d05d0.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/fff89b0d-cb87-49ae-8347-b529ceefc974.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/08078dba-e09f-448c-82cd-1646b003eabd.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/fe83f8e6-b805-421b-82a8-7278c165fc04.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d6eaf420-8795-4d29-90a9-1f799908e4b6.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/141bfd00-1430-4b3e-bd08-597362c153a7.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/31a288e1-d47d-4c50-8c86-999f69b7be60.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/25f518cc-401e-42b1-b201-588fcedcf422.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/9904a6cc-b0b0-44ca-885c-331520ed7346.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/3d98837c-29c2-428b-a6d6-15fb548f6665.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/385c6c33-1e30-4fd0-8175-edb6995ef12d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/01b01425-df7d-4f0f-bc59-b3d47b3394a6.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2b3fa715-9a8a-49d8-a91c-7a5d9997c6b3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/270b812e-c993-45c0-aef8-13157005b0fc.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/40c1dd47-acb8-4b7d-8ada-4120f376a59e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/a3690ebe-a6b9-49f3-afef-f987acb22437.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7b072814-3667-48a6-b531-b1dbdf4c1b69.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4ff385c3-f1ec-425e-9683-4e0e8b193450.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7572224a-41e2-4ec1-a765-b4aad7d77d80.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4d4f60ba-34e9-49bd-a9a3-ae4ca2a0047d.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 489995581,
+            "dominant_saturated_color": "#160902",
+            "large_ro": "https://a0.muscache.com/im/pictures/2179d6fd-dd9c-4fb4-8c0e-4325374d05d0.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/2179d6fd-dd9c-4fb4-8c0e-4325374d05d0.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAQAAAAFCAIAAADtz9qMAAAATElEQVQIHQFBAL7/Abebfe7v9hILBvoA/wHcwqry8e8NBQLj2eQBvqOJHxwg2tXWBfgEAZV8YyYcI9PO0ufx8wFTPCfe2uX1/P79BgZiTCK/dlXsowAAAABJRU5ErkJggg==",
+            "saturated_a11y_dark_color": "#160902",
+            "scrim_color": "#170A02"
+          },
+          "preview_amenities": "Wifi",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAQAAAAFCAIAAADtz9qMAAAATElEQVQIHQFBAL7/Abebfe7v9hILBvoA/wHcwqry8e8NBQLj2eQBvqOJHxwg2tXWBfgEAZV8YyYcI9PO0ufx8wFTPCfe2uX1/P79BgZiTCK/dlXsowAAAABJRU5ErkJggg==",
+          "property_type_id": 43,
+          "reviews_count": 0,
+          "room_and_property_type": "Room in boutique hotel",
+          "room_type_category": "private_room",
+          "room_type": "Private room",
+          "scrim_color": "#170A02",
+          "show_structured_name": false,
+          "space_type": "Hotel room",
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 87210891,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/pictures/693f2207-6718-49a2-af1b-43c65ea7bc03.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/693f2207-6718-49a2-af1b-43c65ea7bc03.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Room in boutique hotel"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Khet Khlong Toei, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            1,
+            35,
+            4,
+            36,
+            5,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            11,
+            44,
+            47,
+            57,
+            30,
+            31
+          ],
+          "preview_amenity_names": [
+            "Wifi"
+          ],
+          "star_rating_color": "#008489",
+          "preview_tags": []
+        },
+        "pricing_quote": {
+          "can_instant_book": false,
+          "monthly_price_factor": 0.28,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$100 x 27 nights",
+                "price_items": [
+                  {
+                    "localized_title": "$30 x 27 nights",
+                    "price_items": [],
+                    "total": {
+                      "amount": 812,
+                      "amount_formatted": "$812",
+                      "currency": "AUD",
+                      "is_micros_accuracy": false
+                    },
+                    "line_item_type": 2,
+                    "localized_explanation": "Average nightly rate is rounded."
+                  },
+                  {
+                    "localized_title": "Service fee",
+                    "price_items": [],
+                    "total": {
+                      "amount": 105,
+                      "amount_formatted": "$105",
+                      "currency": "AUD",
+                      "is_micros_accuracy": false
+                    },
+                    "line_item_type": 4,
+                    "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+                  }
+                ],
+                "total": {
+                  "amount": 2707,
+                  "amount_formatted": "$2,707",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "Long stay discount",
+                "price_items": [],
+                "total": {
+                  "amount": -1895,
+                  "amount_formatted": "-$1,895",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 6,
+                "localized_explanation": "This discount is available because you are staying for 27 days."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 105,
+                  "amount_formatted": "$105",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 917,
+              "amount_formatted": "$917",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$30",
+          "rate": {
+            "amount": 30,
+            "amount_formatted": "$30",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 30,
+            "amount_formatted": "$30",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 0.4,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 2812,
+            "amount_formatted": "$2,812",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.739533267387817,
+        "lng": 100.55556720057908
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "1 private bath",
+          "bathrooms": 1,
+          "bed_label": "2 beds",
+          "bedroom_label": "2 bedrooms",
+          "bedrooms": 2,
+          "beds": 2,
+          "city": "Khet Khlong Toei",
+          "guest_label": "3 guests",
+          "host_languages": [],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/693f2207-6718-49a2-af1b-43c65ea7bc03.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/693f2207-6718-49a2-af1b-43c65ea7bc03.jpg?aki_policy=profile_x_medium",
+          "id": 24816229,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": false,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Hotel room",
+              "2 beds"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.739533267387817,
+          "lng": 100.55556720057908,
+          "localized_city": "Khet Khlong Toei",
+          "localized_neighborhood": "Lower Sukhumvit",
+          "name": "504-505@ KK 11 BOUTIQUE INN",
+          "neighborhood": "Lower Sukhumvit",
+          "person_capacity": 3,
+          "picture_count": 20,
+          "picture_url": "https://a0.muscache.com/im/pictures/52523f00-c731-4659-aa07-c417b9bbe24a.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/52523f00-c731-4659-aa07-c417b9bbe24a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/91506a66-a80f-4816-85ff-179daae81883.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bee969b1-8db8-4fe4-a502-c783b224df0c.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d937b346-1fec-49bf-82f8-a3dbb69e99b0.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f3094edc-fc29-4cf1-b730-ed9029190554.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ca48aec9-83a1-4861-a22a-0b45ccfd9065.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/a70fae51-a985-4475-8897-fc82f8c5d43f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d0d46b73-a9ba-4139-a758-182d9b3e6a49.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/07caaa0e-db55-4f60-8300-145abf455a17.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f2f279a1-a676-466b-b947-7d1462c5190c.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/e3ab28a7-0c40-4d23-be4f-8587571740cd.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/3e260676-3043-4c9c-87e2-b0879886f27c.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b576cb35-11ee-43fa-82cf-288aa2e906be.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/389ee86f-6f91-46d3-9035-e36301ed2b9f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/fc8e6cc0-f531-49b5-9285-ef8da36e55f3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5870f694-3e66-4885-a875-6b450f52258e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/952c39f8-5edb-42eb-b852-bbf57098fec1.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7b468db7-97a7-4f83-ba92-b777f6f01226.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/9672d52c-9c5a-4369-b82d-35267e89df20.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/51ff7e59-a3bd-4f94-aa39-304f9f804b42.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 490044231,
+            "dominant_saturated_color": "#190B03",
+            "large_ro": "https://a0.muscache.com/im/pictures/52523f00-c731-4659-aa07-c417b9bbe24a.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/52523f00-c731-4659-aa07-c417b9bbe24a.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAQAAAAFCAIAAADtz9qMAAAATElEQVQIHQFBAL7/Abebfe7v9hILBvoA/wHcwqry8e8NBQLj2eQBvqOJHxwg2tXWBfgEAZV8YyYcI9PO0ufx8wFTPCfe2uX1/P79BgZiTCK/dlXsowAAAABJRU5ErkJggg==",
+            "saturated_a11y_dark_color": "#190B03",
+            "scrim_color": "#180B03"
+          },
+          "preview_amenities": "Wifi",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAQAAAAFCAIAAADtz9qMAAAATElEQVQIHQFBAL7/Abebfe7v9hILBvoA/wHcwqry8e8NBQLj2eQBvqOJHxwg2tXWBfgEAZV8YyYcI9PO0ufx8wFTPCfe2uX1/P79BgZiTCK/dlXsowAAAABJRU5ErkJggg==",
+          "property_type_id": 43,
+          "reviews_count": 0,
+          "room_and_property_type": "Room in boutique hotel",
+          "room_type_category": "private_room",
+          "room_type": "Private room",
+          "scrim_color": "#180B03",
+          "show_structured_name": false,
+          "space_type": "Hotel room",
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 87210891,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/pictures/693f2207-6718-49a2-af1b-43c65ea7bc03.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/693f2207-6718-49a2-af1b-43c65ea7bc03.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Room in boutique hotel"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Khet Khlong Toei, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            1,
+            35,
+            4,
+            36,
+            5,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            11,
+            44,
+            47,
+            57,
+            30,
+            31
+          ],
+          "preview_amenity_names": [
+            "Wifi"
+          ],
+          "star_rating_color": "#008489",
+          "preview_tags": []
+        },
+        "pricing_quote": {
+          "can_instant_book": false,
+          "monthly_price_factor": 0.29,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$92 x 27 nights",
+                "price_items": [
+                  {
+                    "localized_title": "$30 x 27 nights",
+                    "price_items": [],
+                    "total": {
+                      "amount": 816,
+                      "amount_formatted": "$816",
+                      "currency": "AUD",
+                      "is_micros_accuracy": false
+                    },
+                    "line_item_type": 2,
+                    "localized_explanation": "Average nightly rate is rounded."
+                  },
+                  {
+                    "localized_title": "Service fee",
+                    "price_items": [],
+                    "total": {
+                      "amount": 105,
+                      "amount_formatted": "$105",
+                      "currency": "AUD",
+                      "is_micros_accuracy": false
+                    },
+                    "line_item_type": 4,
+                    "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+                  }
+                ],
+                "total": {
+                  "amount": 2472,
+                  "amount_formatted": "$2,472",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "Long stay discount",
+                "price_items": [],
+                "total": {
+                  "amount": -1656,
+                  "amount_formatted": "-$1,656",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 6,
+                "localized_explanation": "This discount is available because you are staying for 27 days."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 105,
+                  "amount_formatted": "$105",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 921,
+              "amount_formatted": "$921",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$30",
+          "rate": {
+            "amount": 30,
+            "amount_formatted": "$30",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 30,
+            "amount_formatted": "$30",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 0.39,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 2577,
+            "amount_formatted": "$2,577",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.740774215071784,
+        "lng": 100.55746462069467
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "1 private bath",
+          "bathrooms": 1,
+          "bed_label": "1 bed",
+          "bedroom_label": "1 bedroom",
+          "bedrooms": 1,
+          "beds": 1,
+          "city": "Bangkok",
+          "guest_label": "2 guests",
+          "host_languages": [],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/user/50681d7b-c0c5-4413-8664-7aa9d6f624bd.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/user/50681d7b-c0c5-4413-8664-7aa9d6f624bd.jpg?aki_policy=profile_x_medium",
+          "id": 25560798,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": false,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Hotel room",
+              "1 bed"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.740774215071784,
+          "lng": 100.55746462069467,
+          "localized_city": "Bangkok",
+          "localized_neighborhood": "Lower Sukhumvit",
+          "name": "90M To BTSNana / Business Double Room",
+          "neighborhood": "Lower Sukhumvit",
+          "person_capacity": 2,
+          "picture_count": 45,
+          "picture_url": "https://a0.muscache.com/im/pictures/424376de-1898-4b94-a717-e657f65365e5.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/424376de-1898-4b94-a717-e657f65365e5.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/3edde8ba-7ef7-4fbf-938b-d93bbdd52a41.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/219367fb-4132-4a79-a955-ee309b004704.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/e037fda1-7f61-44c9-82cf-16cb97ef225a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c7f0fd5d-f375-4633-bf77-f8ae14cad92e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/1e0b141a-0351-44b2-9e18-7e7c8fc86b92.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/9caa272a-da87-47ad-ac55-b08c30131f6d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/59e710f1-502b-45de-ba62-2b400ba4bb71.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ac621e1b-9324-46de-82af-0ac8bafd48f2.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/dee47b64-afa9-45a0-8d20-71ad89fa8186.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ff7ad705-66ac-4c3a-8e8b-d76d2d920fb1.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bab8f15c-12a1-4245-90db-57a5484821aa.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/dbf34539-cfd0-47e6-9ca0-1268608dc255.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/0ca6a60d-5c9e-4487-bc89-d1b5a57cf254.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b9d2ec69-174b-4707-a8fe-0546b957ca9a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/710774f5-f336-4041-a57b-ec2a10be367b.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/dcd8a656-adc4-44c9-b6bd-cd8763a6ee50.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b53d54eb-c793-4a04-b6bb-11c576cbd19a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/46bba50f-1c45-41e5-ab42-6b0853aa7d45.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f3593e06-a5b8-4a10-957a-4f13a67005f7.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/dcdd6fa3-b77f-45c7-aa90-806e5806bf41.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/045ecbda-cef6-4c91-b53d-b917bbaf3769.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d83298a2-9a1f-4be6-a48f-2ac90d302061.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ba408872-b9e7-41a8-b5f4-41fdc9076265.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/55430741-ed3a-4f8e-8611-1761019b7f85.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/48af8b6f-525a-47a8-b369-fa67fa9edb4d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/8ad946c8-f1b4-4893-acb2-9a2bdda0b84c.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7637c742-2fc5-4985-bbe8-0c93124075e7.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/1e0c4647-b273-4521-812e-f44a586f8c7d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4a93df5b-97d4-43fe-821b-e719ee3b6ce4.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 566334735,
+            "dominant_saturated_color": "#954F35",
+            "large_ro": "https://a0.muscache.com/im/pictures/424376de-1898-4b94-a717-e657f65365e5.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/424376de-1898-4b94-a717-e657f65365e5.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//ASZASyEbD2RUSfLg8/LJtAFbaW4QExA2PDcWEBP/7eQBSlJVMS8oAejdBgQI4+PeARwpLxgNBicTBScpJeTi4NsnFjt6guB2AAAAAElFTkSuQmCC",
+            "saturated_a11y_dark_color": "#954F35",
+            "scrim_color": "#151618"
+          },
+          "preview_amenities": "Wifi",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//ASZASyEbD2RUSfLg8/LJtAFbaW4QExA2PDcWEBP/7eQBSlJVMS8oAejdBgQI4+PeARwpLxgNBicTBScpJeTi4NsnFjt6guB2AAAAAElFTkSuQmCC",
+          "property_type_id": 43,
+          "reviews_count": 1,
+          "room_and_property_type": "Room in boutique hotel",
+          "room_type_category": "private_room",
+          "room_type": "Private room",
+          "scrim_color": "#151618",
+          "show_structured_name": false,
+          "space_type": "Hotel room",
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 182869493,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/pictures/user/50681d7b-c0c5-4413-8664-7aa9d6f624bd.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/user/50681d7b-c0c5-4413-8664-7aa9d6f624bd.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Room in boutique hotel"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Bangkok, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            32,
+            1,
+            35,
+            4,
+            36,
+            5,
+            37,
+            38,
+            39,
+            103,
+            40,
+            104,
+            41,
+            42,
+            11,
+            44,
+            45,
+            77,
+            46,
+            47,
+            51,
+            21,
+            55,
+            31
+          ],
+          "preview_amenity_names": [
+            "Wifi"
+          ],
+          "star_rating_color": "#008489",
+          "preview_tags": [
+            {
+              "name": "self check in",
+              "type": "SECONDARY"
+            }
+          ]
+        },
+        "pricing_quote": {
+          "can_instant_book": true,
+          "monthly_price_factor": 1,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$35 x 27 nights",
+                "price_items": [],
+                "total": {
+                  "amount": 934,
+                  "amount_formatted": "$934",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 120,
+                  "amount_formatted": "$120",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 1054,
+              "amount_formatted": "$1,054",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$35",
+          "rate": {
+            "amount": 35,
+            "amount_formatted": "$35",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 35,
+            "amount_formatted": "$35",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 1,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 1054,
+            "amount_formatted": "$1,054",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.74901296010283,
+        "lng": 100.55734042164949
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "1 bath",
+          "bathrooms": 1,
+          "bed_label": "1 bed",
+          "bedroom_label": "1 bedroom",
+          "bedrooms": 1,
+          "beds": 1,
+          "city": "Khet Ratchathewi",
+          "guest_label": "2 guests",
+          "host_languages": [
+            "zh",
+            "en"
+          ],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/user/c37dd2b7-0c05-410a-b1df-de5a8f83df8b.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/user/c37dd2b7-0c05-410a-b1df-de5a8f83df8b.jpg?aki_policy=profile_x_medium",
+          "id": 25706629,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": false,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Entire condominium",
+              "1 bed"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.74901296010283,
+          "lng": 100.55734042164949,
+          "localized_city": "Khet Ratchathewi",
+          "localized_neighborhood": "Ratchathewi/Phaya Thai",
+          "name": "Luxury 1BR Condo at Makkasan near Nana",
+          "neighborhood": "Ratchathewi/Phaya Thai",
+          "person_capacity": 2,
+          "picture_count": 28,
+          "picture_url": "https://a0.muscache.com/im/pictures/7c49ab5e-3b6a-4951-8a30-9a2ac82e3594.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/7c49ab5e-3b6a-4951-8a30-9a2ac82e3594.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b600185d-a602-4789-815f-c5f3383bd1ee.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/575f0115-1a91-4868-aba8-37ab4e2d1f04.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7f0a0e40-490d-44cf-aa93-d9e95541e25c.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/3788539b-a557-467a-93b7-b18d11a1949e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/16d58c66-4c34-4dfc-9577-a2de84e07c57.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f6ca2273-bd9e-4e8a-ba6e-0eb7f037724b.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/8096dd5a-2e4c-4171-a6e4-067e5a1c25b8.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/34ff8f92-0598-4d64-b416-dadc3da12d12.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/3056f650-33e2-4306-ade5-6c9567c7e815.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f5fa485c-19f0-4424-908e-ed2c7eda4eb8.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/0004ea80-6860-4e0a-9dac-1f163a17f2a0.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/60e7674f-4c3a-4254-b320-bbd711209a9a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/973d05c0-1fc0-4ad4-977f-91375563836c.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4bc9b630-cdd7-4735-9fa1-d4fc2bb08a32.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/66b9fd94-f2eb-4a99-b456-00d9568430b9.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ada03ec7-e492-41e5-a258-909c5980d381.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5b20cee0-d66a-4cc7-9045-d2cbd92e9837.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c13f1c78-3546-4834-8e0f-da5b63b17fe3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/37748400-e260-4e8d-9613-d0361cb928ea.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/09f82079-4296-4c45-873c-4dc54616d921.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/0936528a-8672-4160-98ba-52da32ea0cdd.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2b2bc9ef-e168-4e89-9b0b-ddf0a1a1f59b.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/8c5f98fc-bd00-4f75-88da-7efd6ae12ceb.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/702d795c-3ff7-4bc2-901e-6ed5294b5f83.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2a52a290-5482-47de-829c-c70b86d04939.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c6b2f9c7-1c49-4059-abe1-db0edad37054.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ed7113d0-1263-4936-84e7-b7b18373091a.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 510750250,
+            "dominant_saturated_color": "#231A13",
+            "large_ro": "https://a0.muscache.com/im/pictures/7c49ab5e-3b6a-4951-8a30-9a2ac82e3594.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/7c49ab5e-3b6a-4951-8a30-9a2ac82e3594.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAASUlEQVQIHWPMSQjnZvz99PPvqsZ2JWVlxmh/Nz5uTm5B/uCYdFlZecbqWD8ZGWlxOdlvfxlFRcQY072s3n/+omeg+fTZG1cHWwCSAhVXSMEx2AAAAABJRU5ErkJggg==",
+            "saturated_a11y_dark_color": "#231A13",
+            "scrim_color": "#231A13"
+          },
+          "preview_amenities": "Pool, Wifi, Kitchen, Gym",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAASUlEQVQIHWPMSQjnZvz99PPvqsZ2JWVlxmh/Nz5uTm5B/uCYdFlZecbqWD8ZGWlxOdlvfxlFRcQY072s3n/+omeg+fTZG1cHWwCSAhVXSMEx2AAAAABJRU5ErkJggg==",
+          "property_type_id": 37,
+          "reviews_count": 2,
+          "room_and_property_type": "Entire condominium",
+          "room_type_category": "entire_home",
+          "room_type": "Entire home/apt",
+          "scrim_color": "#231A13",
+          "show_structured_name": false,
+          "space_type": "Entire condominium",
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 193231688,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/pictures/user/c37dd2b7-0c05-410a-b1df-de5a8f83df8b.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/user/c37dd2b7-0c05-410a-b1df-de5a8f83df8b.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Entire condominium"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Khet Ratchathewi, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            1,
+            33,
+            129,
+            35,
+            4,
+            36,
+            5,
+            7,
+            8,
+            40,
+            41,
+            44,
+            45,
+            77,
+            46,
+            15,
+            47,
+            21,
+            27,
+            31
+          ],
+          "preview_amenity_names": [
+            "Pool",
+            "Wifi",
+            "Kitchen",
+            "Gym"
+          ],
+          "star_rating_color": "#008489",
+          "preview_tags": [
+            {
+              "name": "Able to cook",
+              "type": "SECONDARY"
+            }
+          ]
+        },
+        "pricing_quote": {
+          "can_instant_book": false,
+          "monthly_price_factor": 1,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$103 x 27 nights",
+                "price_items": [],
+                "total": {
+                  "amount": 2768,
+                  "amount_formatted": "$2,768",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "Cleaning fee",
+                "price_items": [],
+                "total": {
+                  "amount": 39,
+                  "amount_formatted": "$39",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 5,
+                "localized_explanation": "One-time fee charged by host to cover the cost of cleaning their space."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 362,
+                  "amount_formatted": "$362",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 3169,
+              "amount_formatted": "$3,169",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$103",
+          "rate": {
+            "amount": 103,
+            "amount_formatted": "$103",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 103,
+            "amount_formatted": "$103",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 1,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 3169,
+            "amount_formatted": "$3,169",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.726724322394004,
+        "lng": 100.5629430594836
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "2 baths",
+          "bathrooms": 2,
+          "bed_label": "2 beds",
+          "bedroom_label": "2 bedrooms",
+          "bedrooms": 2,
+          "beds": 2,
+          "city": "Khlong Toei",
+          "guest_label": "5 guests",
+          "host_languages": [
+            "en",
+            "th"
+          ],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/5e1f9a22-25fd-4f61-b55d-5d9d6f19d2c6.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/5e1f9a22-25fd-4f61-b55d-5d9d6f19d2c6.jpg?aki_policy=profile_x_medium",
+          "id": 26113334,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": true,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Entire serviced apartment",
+              "2 beds"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.726724322394004,
+          "lng": 100.5629430594836,
+          "localized_city": "Khlong Toei",
+          "localized_neighborhood": "Klong Toey",
+          "name": "2BR (A) MRT QueenSirikit/BPE",
+          "neighborhood": "Klong Toey",
+          "person_capacity": 5,
+          "picture_count": 33,
+          "picture_url": "https://a0.muscache.com/im/pictures/2db359ba-e4e7-47ac-b744-daaffa5d0f84.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/2db359ba-e4e7-47ac-b744-daaffa5d0f84.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/12540283-81b1-44d2-a3ed-860027673a28.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2d53dce8-2a17-4f1c-9c46-a597913ffdf0.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7a83a1d4-0301-4f3e-8ad7-20e5aa8572af.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/76a4d3a9-4f22-48de-937f-667c8a839dd1.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/257bcf1b-8a08-49db-9375-29970a233845.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/e12ab68a-55b2-4ec3-93c0-98afe0a3fb54.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5b92b6bf-b700-45aa-853b-9fffc9e74dfa.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/61864709-c59e-4e3c-9f0f-e790da9b624a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f5fa6085-ae15-4905-ae80-fa066a4125f8.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/6e6d29fd-4596-459c-bd5a-37c8b318b6d9.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2d65191b-12e4-4975-b780-717271efe052.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/fcd442d6-4a81-4a8d-815b-2b86cbab2a50.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/a27eaa85-58c8-4642-b05d-5456f320a528.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c0509b50-9ccc-4846-9dbd-e0f29afb87ba.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/fb7b4e7c-5d76-4e67-879a-2198a588d221.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bb7075c4-f787-4410-ab32-16cf69a93a03.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/10676ec6-5ec1-4a84-9472-14a2514eaeaf.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4792c4cd-a5ba-4b73-a2c5-03006b445e32.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/fcd3a50f-7f8b-4b7d-a02b-fa9525e9bba7.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/cf362a1c-85fd-4a93-8ac2-4b65bc2cdc4a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ed37c180-0aec-4ca7-9f9d-31d8becf5a05.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f57d45c3-e1e6-40f0-975c-a03a12b24f13.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/77636706-cd02-4e6e-9b54-e104a738a693.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/2cf4737d-8a7d-42bb-9587-350fc86cdb2a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bf0518ef-251c-4542-aad0-5632da242299.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/55119969-7eb1-4a15-a8de-1b6abb21f526.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/50c73318-8de3-4319-825a-a089dd634155.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f2ed07f1-d730-4aa1-8059-5ae1c9b85081.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ca9c5433-f61e-43e1-a651-7ba2066f3e1e.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 519916445,
+            "dominant_saturated_color": "#865834",
+            "large_ro": "https://a0.muscache.com/im/pictures/2db359ba-e4e7-47ac-b744-daaffa5d0f84.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/2db359ba-e4e7-47ac-b744-daaffa5d0f84.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAOUlEQVQIHWOsyo7R0jVU0jbW0jPsbGpkDHI08vX2UDW0k1VWX718GeOq/mo+pl9HT57W8s1es2QWAFNrEN2fCJA3AAAAAElFTkSuQmCC",
+            "saturated_a11y_dark_color": "#865834",
+            "scrim_color": "#271910"
+          },
+          "preview_amenities": "Pool, Wifi, Kitchen, Gym",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAOUlEQVQIHWOsyo7R0jVU0jbW0jPsbGpkDHI08vX2UDW0k1VWX718GeOq/mo+pl9HT57W8s1es2QWAFNrEN2fCJA3AAAAAElFTkSuQmCC",
+          "property_type_id": 47,
+          "reviews_count": 1,
+          "room_and_property_type": "Entire serviced apartment",
+          "room_type_category": "entire_home",
+          "room_type": "Entire home/apt",
+          "scrim_color": "#271910",
+          "show_structured_name": false,
+          "space_type": "Entire serviced apartment",
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 4654562,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/pictures/5e1f9a22-25fd-4f61-b55d-5d9d6f19d2c6.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/5e1f9a22-25fd-4f61-b55d-5d9d6f19d2c6.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Entire serviced apartment"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Khlong Toei, Bangkok, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            96,
+            1,
+            2,
+            35,
+            4,
+            100,
+            5,
+            38,
+            7,
+            39,
+            8,
+            40,
+            9,
+            41,
+            44,
+            45,
+            15,
+            47,
+            51,
+            21,
+            85,
+            55,
+            89,
+            91
+          ],
+          "preview_amenity_names": [
+            "Pool",
+            "Wifi",
+            "Kitchen",
+            "Gym"
+          ],
+          "star_rating_color": "#008489",
+          "preview_tags": [
+            {
+              "name": "Able to cook",
+              "type": "SECONDARY"
+            },
+            {
+              "name": "self check in",
+              "type": "SECONDARY"
+            }
+          ]
+        },
+        "pricing_quote": {
+          "can_instant_book": true,
+          "monthly_price_factor": 1,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$100 x 27 nights",
+                "price_items": [],
+                "total": {
+                  "amount": 2698,
+                  "amount_formatted": "$2,698",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 348,
+                  "amount_formatted": "$348",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 3046,
+              "amount_formatted": "$3,046",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$100",
+          "rate": {
+            "amount": 100,
+            "amount_formatted": "$100",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 100,
+            "amount_formatted": "$100",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 1,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 3046,
+            "amount_formatted": "$3,046",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.730942831728182,
+        "lng": 100.56310141492588
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "1 bath",
+          "bathrooms": 1,
+          "bed_label": "1 bed",
+          "bedroom_label": "Studio",
+          "bedrooms": 0,
+          "beds": 1,
+          "city": "Khet Khlong Toei",
+          "guest_label": "2 guests",
+          "host_languages": [
+            "zh",
+            "en",
+            "th"
+          ],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/32e22597-4494-458b-a9b2-894aca5ea145.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/32e22597-4494-458b-a9b2-894aca5ea145.jpg?aki_policy=profile_x_medium",
+          "id": 27816008,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": true,
+          "is_new_listing": false,
+          "is_superhost": false,
+          "kicker_content": {
+            "messages": [
+              "Entire serviced apartment",
+              "1 bed"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.730942831728182,
+          "lng": 100.56310141492588,
+          "localized_city": "Khet Khlong Toei",
+          "localized_neighborhood": "Klong Toey",
+          "name": "Studio @ Sukhumvit18/AIA",
+          "neighborhood": "Klong Toey",
+          "person_capacity": 2,
+          "picture_count": 22,
+          "picture_url": "https://a0.muscache.com/im/pictures/fc8fe961-4cec-404a-84c2-121ddf8d81ac.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/fc8fe961-4cec-404a-84c2-121ddf8d81ac.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5e7fcbaa-3933-4afd-90d5-7c221c39b2cc.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/9c5c0064-21e8-4339-b705-3f859404ad0d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/e731f900-7f3d-4571-92d3-313b37d5b085.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/accda25b-74cb-4288-b080-10d6c34bd436.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/dba67d64-d8a8-4036-94ef-77f5ac378bac.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4311612f-2793-42af-b252-2f2abc0263b3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c40e7709-058a-47d8-8b0e-51437907aa02.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d08d3c74-48eb-4b8d-90a7-07a86742191f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bde3d3c3-dc41-40af-8eed-61a8f849adb7.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/80fd4489-1a8d-4043-a3f2-1856cb626065.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/fb0f371c-59f9-4569-abab-5e0799de4841.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/1c67f78e-3636-4978-b7af-b4666a004faa.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b8009e33-729b-427f-a8f1-8aa53cc4f910.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bff0a0d0-e6b7-416a-87a7-39cc566da347.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/98fcb623-82df-4d1a-b730-9e6bd49661e7.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/0da0b3af-df38-405b-8199-1e9c711247e5.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d5829ac9-5ee6-4b96-8216-d1c52365762a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/b5f7c7f4-339c-48d8-987c-fbd214fba5d0.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4438f941-c840-49d8-aef4-68263764de6f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/371d82c3-df0a-460e-8458-70b1d8bf6048.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/459edd88-dd1e-405b-a1b3-8ece3c4e164c.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 561266478,
+            "dominant_saturated_color": "#C0713C",
+            "large_ro": "https://a0.muscache.com/im/pictures/fc8fe961-4cec-404a-84c2-121ddf8d81ac.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/fc8fe961-4cec-404a-84c2-121ddf8d81ac.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AZuYegoIESIZEtbf8ba4vgG1vLfQw7gzMDnWz8HO3NkBj5Wa+eHjICIp/v3/+AP5RRYav9ZL9eIAAAAASUVORK5CYII=",
+            "saturated_a11y_dark_color": "#C0713C",
+            "scrim_color": "#2B221B"
+          },
+          "preview_amenities": "Wifi",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AZuYegoIESIZEtbf8ba4vgG1vLfQw7gzMDnWz8HO3NkBj5Wa+eHjICIp/v3/+AP5RRYav9ZL9eIAAAAASUVORK5CYII=",
+          "property_type_id": 47,
+          "reviews_count": 2,
+          "room_and_property_type": "Entire serviced apartment",
+          "room_type_category": "entire_home",
+          "room_type": "Entire home/apt",
+          "scrim_color": "#2B221B",
+          "show_structured_name": false,
+          "space_type": "Entire serviced apartment",
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 6531105,
+            "is_superhost": false,
+            "picture_url": "https://a0.muscache.com/im/pictures/32e22597-4494-458b-a9b2-894aca5ea145.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/32e22597-4494-458b-a9b2-894aca5ea145.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Entire serviced apartment"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Khet Khlong Toei, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            1,
+            35,
+            4,
+            5,
+            38,
+            39,
+            40,
+            9,
+            41,
+            44,
+            45,
+            47,
+            51,
+            55,
+            31
+          ],
+          "preview_amenity_names": [
+            "Wifi"
+          ],
+          "star_rating_color": "#008489",
+          "preview_tags": [
+            {
+              "name": "self check in",
+              "type": "SECONDARY"
+            }
+          ]
+        },
+        "pricing_quote": {
+          "can_instant_book": true,
+          "monthly_price_factor": 1,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$66 x 27 nights",
+                "price_items": [],
+                "total": {
+                  "amount": 1782,
+                  "amount_formatted": "$1,782",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 230,
+                  "amount_formatted": "$230",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 2012,
+              "amount_formatted": "$2,012",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$66",
+          "rate": {
+            "amount": 66,
+            "amount_formatted": "$66",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 66,
+            "amount_formatted": "$66",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 1,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 2012,
+            "amount_formatted": "$2,012",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.742739262863799,
+        "lng": 100.56160233217065
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "1 bath",
+          "bathrooms": 1,
+          "bed_label": "2 beds",
+          "bedroom_label": "Studio",
+          "bedrooms": 0,
+          "beds": 2,
+          "city": "Khet Watthana",
+          "guest_label": "3 guests",
+          "host_languages": [],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/user/a95dfc4d-7b04-45cd-8a99-33724577c109.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/user/a95dfc4d-7b04-45cd-8a99-33724577c109.jpg?aki_policy=profile_x_medium",
+          "id": 29908953,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": true,
+          "is_new_listing": false,
+          "is_superhost": true,
+          "kicker_content": {
+            "messages": [
+              "Entire condominium",
+              "2 beds"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.742739262863799,
+          "lng": 100.56160233217065,
+          "localized_city": "Khet Watthana",
+          "localized_neighborhood": "Lower Sukhumvit",
+          "name": "Great Location❤️Downtown❤️Wifi❤️Street Food❤️Clean",
+          "neighborhood": "Lower Sukhumvit",
+          "person_capacity": 3,
+          "picture_count": 25,
+          "picture_url": "https://a0.muscache.com/im/pictures/04ce75e7-da80-473e-ac19-fd8209fc4c6e.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/04ce75e7-da80-473e-ac19-fd8209fc4c6e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/e3182c13-ced9-47be-a2c8-3d378f1a37ec.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/8b50dfb9-ac84-490a-8aa5-92f961cedba1.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bd9cd4ef-2654-43c2-a8ff-9c32c5bada14.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7598e670-f941-4170-b821-5da1ccd7e63d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/33470b44-96a7-4704-af7c-633de7d26bd0.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/52c00584-96e5-4bb7-a79b-235d8c092cd2.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/06d8af9d-5016-42a7-b0c2-3975f30d4cd6.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/423c018a-bd6f-40da-93c8-41cf4bd3202b.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bdcf97ed-3f9b-41d9-bec4-9f38d9adbc31.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7775b20a-556a-4b20-bb00-a4d90cdf7ae0.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/5bdaab73-d3a8-48c5-95ca-729b56d1e2bc.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/6cc42571-37de-4681-aa98-632be0080912.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bf874032-6318-4525-8602-15356c79d50e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bd0e19ad-b5de-4a11-b21a-9f4c60b80dc5.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/1a4e6706-b8e2-4e57-8a2e-7b8a1e8babcb.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c8fd41b5-7a4b-4c7a-a1f5-da6751efbd7a.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f1737f4c-7bae-4341-8854-f1629b7acf9f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/80832cd3-d829-48f6-9eab-ef2868de20c3.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7f35d800-5d69-425b-859e-f31beb894abb.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/be55efb0-e18d-43c9-8758-fae783d8fe41.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/25214986-fc2a-4460-a24b-bbcc8a073701.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/4257f97b-3503-4d5e-9bfd-1d56324bcb07.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/83c59bcd-6e83-4013-a90c-f183bc44009f.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c1888af3-303a-4f96-be0a-bc613d5ce53a.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 623559505,
+            "dominant_saturated_color": "#F8FCFB",
+            "large_ro": "https://a0.muscache.com/im/pictures/04ce75e7-da80-473e-ac19-fd8209fc4c6e.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/04ce75e7-da80-473e-ac19-fd8209fc4c6e.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//Aa+on9TW1TE0Op+gnlteXgGoo5nx8vUBAf6wtLx3f4ABXVxX/gAEDw4I5N/hAP0AAS4lHg4PDVNVT9XFxBcSDudzG14JDiZLAAAAAElFTkSuQmCC",
+            "saturated_a11y_dark_color": "#F8FCFB",
+            "scrim_color": "#201815"
+          },
+          "preview_amenities": "Pool, Wifi, Kitchen, Gym",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//Aa+on9TW1TE0Op+gnlteXgGoo5nx8vUBAf6wtLx3f4ABXVxX/gAEDw4I5N/hAP0AAS4lHg4PDVNVT9XFxBcSDudzG14JDiZLAAAAAElFTkSuQmCC",
+          "property_type_id": 37,
+          "reviews_count": 4,
+          "room_and_property_type": "Entire condominium",
+          "room_type_category": "entire_home",
+          "room_type": "Entire home/apt",
+          "scrim_color": "#201815",
+          "show_structured_name": false,
+          "space_type": "Entire condominium",
+          "star_rating": 4.5,
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 111844630,
+            "is_superhost": true,
+            "picture_url": "https://a0.muscache.com/im/pictures/user/a95dfc4d-7b04-45cd-8a99-33724577c109.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/user/a95dfc4d-7b04-45cd-8a99-33724577c109.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Entire condominium"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Khet Watthana, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            96,
+            1,
+            33,
+            129,
+            35,
+            4,
+            5,
+            7,
+            8,
+            40,
+            41,
+            44,
+            45,
+            77,
+            46,
+            15,
+            47,
+            21,
+            89,
+            91,
+            93,
+            94
+          ],
+          "preview_amenity_names": [
+            "Pool",
+            "Wifi",
+            "Kitchen",
+            "Gym"
+          ],
+          "star_rating_color": "#008489",
+          "preview_tags": [
+            {
+              "name": "superhost",
+              "type": "PRIMARY"
+            },
+            {
+              "name": "Able to cook",
+              "type": "SECONDARY"
+            }
+          ]
+        },
+        "pricing_quote": {
+          "can_instant_book": false,
+          "monthly_price_factor": 1,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$73 x 27 nights",
+                "price_items": [],
+                "total": {
+                  "amount": 1974,
+                  "amount_formatted": "$1,974",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "Cleaning fee",
+                "price_items": [],
+                "total": {
+                  "amount": 46,
+                  "amount_formatted": "$46",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 5,
+                "localized_explanation": "One-time fee charged by host to cover the cost of cleaning their space."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 261,
+                  "amount_formatted": "$261",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 2281,
+              "amount_formatted": "$2,281",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$73",
+          "rate": {
+            "amount": 73,
+            "amount_formatted": "$73",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 73,
+            "amount_formatted": "$73",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 1,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 2281,
+            "amount_formatted": "$2,281",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    },
+    {
+      "position": {
+        "lat": 13.748727416440218,
+        "lng": 100.5551039180784
+      },
+      "data": {
+        "listing": {
+          "badges": [],
+          "bathroom_label": "1 bath",
+          "bathrooms": 1,
+          "bed_label": "2 beds",
+          "bedroom_label": "1 bedroom",
+          "bedrooms": 1,
+          "beds": 2,
+          "city": "Khet Ratchathewi",
+          "guest_label": "4 guests",
+          "host_languages": [
+            "zh",
+            "en"
+          ],
+          "host_thumbnail_url_small": "https://a0.muscache.com/im/pictures/user/244f6a96-df3b-4d3b-a050-9b3d6f7c0d48.jpg?aki_policy=profile_small",
+          "host_thumbnail_url": "https://a0.muscache.com/im/pictures/user/244f6a96-df3b-4d3b-a050-9b3d6f7c0d48.jpg?aki_policy=profile_x_medium",
+          "id": 31199134,
+          "is_business_travel_ready": false,
+          "is_fully_refundable": false,
+          "is_host_highly_rated": true,
+          "is_new_listing": true,
+          "is_superhost": true,
+          "kicker_content": {
+            "messages": [
+              "Entire house",
+              "2 beds"
+            ],
+            "text_color": "#008489"
+          },
+          "lat": 13.748727416440218,
+          "lng": 100.5551039180784,
+          "localized_city": "Khet Ratchathewi",
+          "localized_neighborhood": "Ratchathewi/Phaya Thai",
+          "main_section_message": {
+            "icon_type": "icon_competing_views",
+            "headline": "POPULAR",
+            "type": "dated_views_people",
+            "body": "12 others are looking at this place for these dates."
+          },
+          "name": "曼谷城市中心温馨一房公寓",
+          "neighborhood": "Ratchathewi/Phaya Thai",
+          "person_capacity": 4,
+          "picture_count": 16,
+          "picture_url": "https://a0.muscache.com/im/pictures/4cce2d1c-f97d-4e0d-a9ee-77a3bccff1b1.jpg?aki_policy=large",
+          "picture_urls": [
+            "https://a0.muscache.com/im/pictures/4cce2d1c-f97d-4e0d-a9ee-77a3bccff1b1.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f38e24e8-3590-42e1-b6ae-f33f577ca572.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/37f1f7f7-2428-4fa3-b898-6961b2840162.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7d2b5ec5-f35e-4c31-bbc2-0bd28dfcd050.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/00775d4a-0a21-4678-9666-02cc899b4a1d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/bd6f2e4a-66ac-4c53-8e34-b9cc61a59416.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/d34f6620-eaf8-427b-a443-603a49c42c2e.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/9edbe746-cd45-4a07-8e96-e41ae6460f2d.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/ca376ed8-c6c6-4320-8058-54ecac6920a5.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/95307bb4-3363-41a8-9c75-030c2cf6dac6.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c1f41784-0018-4dc4-837d-e19faad212e2.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/614e391d-fea5-4356-a645-850a45d733ce.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/da9909bd-8081-477a-bfef-8bfa1bb941c8.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/7d4182c3-c66f-4493-8d4d-189de7969a69.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/c6dacc48-7e84-43be-be61-2f8ef898f0b4.jpg?aki_policy=large",
+            "https://a0.muscache.com/im/pictures/f07b3d9d-5b04-4b41-8c60-92fdd64bb764.jpg?aki_policy=large"
+          ],
+          "picture": {
+            "id": 646280429,
+            "dominant_saturated_color": "#EDDDCD",
+            "large_ro": "https://a0.muscache.com/im/pictures/4cce2d1c-f97d-4e0d-a9ee-77a3bccff1b1.jpg?aki_policy=large_ro",
+            "picture": "https://a0.muscache.com/im/pictures/4cce2d1c-f97d-4e0d-a9ee-77a3bccff1b1.jpg?aki_policy=large",
+            "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//AVxAMxUYFTg8ORweJeDsBQGdg28PFxOVm6hnZGb0+QoBWz0tBAgE5+7vQENBCAgVAXNYRB4gHhomKt3k5QL+AXXpFLlAgcn9AAAAAElFTkSuQmCC",
+            "saturated_a11y_dark_color": "#EDDDCD",
+            "scrim_color": "#1D1512"
+          },
+          "preview_amenities": "Pool, Wifi, Kitchen, Gym",
+          "preview_encoded_png": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAIAAADJUWIXAAAAS0lEQVQIHQFAAL//AVxAMxUYFTg8ORweJeDsBQGdg28PFxOVm6hnZGb0+QoBWz0tBAgE5+7vQENBCAgVAXNYRB4gHhomKt3k5QL+AXXpFLlAgcn9AAAAAElFTkSuQmCC",
+          "property_type_id": 2,
+          "reviews_count": 0,
+          "room_and_property_type": "Entire house",
+          "room_type_category": "entire_home",
+          "room_type": "Entire home/apt",
+          "scrim_color": "#1D1512",
+          "show_structured_name": false,
+          "space_type": "Entire house",
+          "tier_id": 0,
+          "user": {
+            "first_name": " ",
+            "has_profile_pic": true,
+            "id": 18699637,
+            "is_superhost": true,
+            "picture_url": "https://a0.muscache.com/im/pictures/user/244f6a96-df3b-4d3b-a050-9b3d6f7c0d48.jpg?aki_policy=profile_x_medium",
+            "smart_name": " ",
+            "thumbnail_url": "https://a0.muscache.com/im/pictures/user/244f6a96-df3b-4d3b-a050-9b3d6f7c0d48.jpg?aki_policy=profile_small"
+          },
+          "wide_kicker_content": {
+            "messages": [
+              "Entire house"
+            ],
+            "text_color": "#008489"
+          },
+          "public_address": "Khet Ratchathewi, Krung Thep Maha Nakhon, Thailand",
+          "seo_reviews": [],
+          "amenity_ids": [
+            1,
+            33,
+            2,
+            35,
+            131,
+            4,
+            5,
+            7,
+            8,
+            40,
+            104,
+            41,
+            44,
+            45,
+            77,
+            46,
+            15,
+            47,
+            21,
+            85,
+            86,
+            87
+          ],
+          "preview_amenity_names": [
+            "Pool",
+            "Wifi",
+            "Kitchen",
+            "Gym"
+          ],
+          "star_rating_color": "#008489",
+          "preview_tags": [
+            {
+              "name": "superhost",
+              "type": "PRIMARY"
+            },
+            {
+              "name": "Able to cook",
+              "type": "SECONDARY"
+            }
+          ]
+        },
+        "pricing_quote": {
+          "can_instant_book": false,
+          "monthly_price_factor": 0.75,
+          "price": {
+            "localized_title": "Total",
+            "price_items": [
+              {
+                "localized_title": "$73 x 27 nights",
+                "price_items": [
+                  {
+                    "localized_title": "$70 x 27 nights",
+                    "price_items": [],
+                    "total": {
+                      "amount": 1879,
+                      "amount_formatted": "$1,879",
+                      "currency": "AUD",
+                      "is_micros_accuracy": false
+                    },
+                    "line_item_type": 2,
+                    "localized_explanation": "Average nightly rate is rounded."
+                  },
+                  {
+                    "localized_title": "Cleaning fee",
+                    "price_items": [],
+                    "total": {
+                      "amount": 28,
+                      "amount_formatted": "$28",
+                      "currency": "AUD",
+                      "is_micros_accuracy": false
+                    },
+                    "line_item_type": 5,
+                    "localized_explanation": "One-time fee charged by host to cover the cost of cleaning their space."
+                  },
+                  {
+                    "localized_title": "Service fee",
+                    "price_items": [],
+                    "total": {
+                      "amount": 246,
+                      "amount_formatted": "$246",
+                      "currency": "AUD",
+                      "is_micros_accuracy": false
+                    },
+                    "line_item_type": 4,
+                    "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+                  }
+                ],
+                "total": {
+                  "amount": 1978,
+                  "amount_formatted": "$1,978",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 2,
+                "localized_explanation": "Average nightly rate is rounded."
+              },
+              {
+                "localized_title": "5% weekly price discount",
+                "price_items": [],
+                "total": {
+                  "amount": -99,
+                  "amount_formatted": "-$99",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 7,
+                "localized_explanation": "’s place has weekly discounts for stays longer than 7 days."
+              },
+              {
+                "localized_title": "Cleaning fee",
+                "price_items": [],
+                "total": {
+                  "amount": 28,
+                  "amount_formatted": "$28",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 5,
+                "localized_explanation": "One-time fee charged by host to cover the cost of cleaning their space."
+              },
+              {
+                "localized_title": "Service fee",
+                "price_items": [],
+                "total": {
+                  "amount": 246,
+                  "amount_formatted": "$246",
+                  "currency": "AUD",
+                  "is_micros_accuracy": false
+                },
+                "line_item_type": 4,
+                "localized_explanation": "This helps us run our platform and offer services like 24/7 support on your trip."
+              }
+            ],
+            "total": {
+              "amount": 2153,
+              "amount_formatted": "$2,153",
+              "currency": "AUD",
+              "is_micros_accuracy": false
+            }
+          },
+          "price_string": "$70",
+          "rate": {
+            "amount": 70,
+            "amount_formatted": "$70",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "rate_type": "nightly",
+          "rate_with_service_fee": {
+            "amount": 70,
+            "amount_formatted": "$70",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          },
+          "weekly_price_factor": 0.95,
+          "should_show_from_label": false,
+          "total_price_without_discount": {
+            "amount": 2252,
+            "amount_formatted": "$2,252",
+            "currency": "AUD",
+            "is_micros_accuracy": false
+          }
+        },
+        "verified": {
+          "enabled": false,
+          "badge_text": "Plus",
+          "badge_secondary_text": "Verified",
+          "kicker_badge_type": "filled"
+        },
+        "verified_card": false
+      }
+    }
+  ]

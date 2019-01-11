@@ -1,16 +1,24 @@
 import * as React from 'react';
 import './style.css';
 
-interface MapResultViewProps {
+export interface MapResultViewProps {
   GoogleAPIMapKey: string;
-  basePosition: {
+  data: {
     lat: number;
     lng: number;
+    markers: {
+      lat: number;
+      lng: number;
+      [K: string]: any;
+    }[];
   };
 }
 
 let map: any;
-const initMap = function(position: { lat: number; lng: number }) {
+const initMap = function(
+  position: { lat: number; lng: number },
+  markers: { [K: string]: any }[],
+) {
   // @ts-ignore
   map = new google.maps.Map(document.getElementById('map'), {
     center: { ...position },
@@ -19,13 +27,16 @@ const initMap = function(position: { lat: number; lng: number }) {
   });
 
   // Create Marker
-  function HTMLMarker(lat: number, lng: number) {
+  function HTMLMarker(data: { lat: number; lng: number; [K: string]: any }) {
+    const { lat, lng, ...rest } = data;
     // @ts-ignore
     this.lat = lat;
     // @ts-ignore
     this.lng = lng;
     // @ts-ignore
-    this.pos = new google.maps.LatLng(lat, lng);
+    this.pos = new google.maps.LatLng(this.lat, this.lng);
+    // @ts-ignore
+    this.data = rest;
   }
 
   // @ts-ignore
@@ -37,23 +48,37 @@ const initMap = function(position: { lat: number; lng: number }) {
   // init your html element here
   HTMLMarker.prototype.onAdd = function() {
     console.log('add');
-    var div = document.createElement('div');
-    div.className = 'my-marker';
+    this.div = document.createElement('div');
+    this.div.className = 'my-marker';
+    let span = document.createElement('span');
+    span.innerHTML = this.data.name;
+    this.div.appendChild(span);
     var panes = this.getPanes();
-    panes.overlayImage.appendChild(div);
+    panes.overlayImage.appendChild(this.div);
   };
 
   HTMLMarker.prototype.draw = function() {
     console.log('drag fire!');
     var overlayProjection = this.getProjection();
     var position = overlayProjection.fromLatLngToDivPixel(this.pos);
-    var panes = this.getPanes();
-    panes.overlayImage.style.left = position.x + 'px';
-    panes.overlayImage.style.top = position.y + 'px';
+    // var panes = this.getPanes();
+    this.div.style.left = position.x + 'px';
+    this.div.style.top = position.y + 'px';
   };
   //@ts-ignore
-  var htmlMarker = new HTMLMarker(59.327, 18.067);
-  htmlMarker.setMap(map);
+  markers.forEach(marker => {
+    console.log(marker);
+    //@ts-ignore
+    var htmlMarker = new HTMLMarker(marker);
+    htmlMarker.setMap(map);
+
+    //@ts-ignore
+    // new google.maps.Marker({
+    //   //@ts-ignore
+    //   position: new google.maps.LatLng(marker.lat, marker.lng),
+    //   map: map,
+    // });
+  });
 };
 
 export class MapResultView extends React.Component<MapResultViewProps> {
@@ -61,6 +86,7 @@ export class MapResultView extends React.Component<MapResultViewProps> {
   s: HTMLScriptElement | undefined;
 
   componentDidMount() {
+    const position = { lat: this.props.data.lat, lng: this.props.data.lng };
     if (!map) {
       this.s = document.createElement('script');
       // @ts-ignore
@@ -74,10 +100,10 @@ export class MapResultView extends React.Component<MapResultViewProps> {
       document.body.appendChild(this.s);
       // @ts-ignore
       this.s.onload = () => {
-        initMap(this.props.basePosition);
+        initMap(position, this.props.data.markers);
       };
     } else {
-      initMap(this.props.basePosition);
+      initMap(position, this.props.data.markers);
     }
   }
 
