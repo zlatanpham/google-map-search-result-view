@@ -4,6 +4,7 @@ import './style.css';
 
 export interface MapResultViewProps {
   GoogleAPIMapKey: string;
+  MarkerComponent: React.ComponentClass;
   data: {
     lat: number;
     lng: number;
@@ -15,58 +16,11 @@ export interface MapResultViewProps {
   };
 }
 
-interface MarkerInterface {
-  lat: number;
-  lng: number;
-  id: number;
-  picture_url: string;
-  space_type: string;
-  bed_label: string;
-  name: string;
-  price: Price;
-}
-
-export interface Price {
-  amount: number;
-  amount_formatted: string;
-  currency: string;
-  is_micros_accuracy: boolean;
-}
-
-class Marker extends React.Component<MarkerInterface> {
-  render() {
-    return (
-      <div
-        style={{
-          paddingLeft: '6px',
-          paddingRight: '5px',
-          position: 'relative',
-          borderWidth: '1px',
-          borderStyle: 'solid',
-          borderColor: 'rgba(0, 0, 0, 0.2)',
-          borderImage: 'initial',
-          borderRadius: '2px',
-          backgroundColor: 'white',
-          fontWeight: 'bold',
-          fontSize: '14px',
-          padding: '3px 5px',
-          boxShadow: '0 2px 4px 0 rgba(0,0,0,0.15)',
-          cursor: 'pointer',
-        }}
-        onClick={() => {
-          console.log(this.props);
-        }}
-      >
-        {this.props.price.amount_formatted + ' ' + this.props.price.currency}
-      </div>
-    );
-  }
-}
-
 let map: any;
 const initMap = function(
   position: { lat: number; lng: number },
   markers: { [K: string]: any }[],
+  MarkerComponent: React.ComponentClass,
 ) {
   // @ts-ignore
   map = new google.maps.Map(document.getElementById('map'), {
@@ -101,7 +55,7 @@ const initMap = function(
     this.div.className = 'my-marker';
     ReactDOM.render(
       //@ts-ignore
-      <Marker {...this.data} />,
+      <MarkerComponent {...this.data} />,
       this.div,
     );
     // let span = document.createElement('span');
@@ -154,10 +108,10 @@ export class MapResultView extends React.Component<MapResultViewProps> {
       document.body.appendChild(this.s);
       // @ts-ignore
       this.s.onload = () => {
-        initMap(position, this.props.data.markers);
+        initMap(position, this.props.data.markers, this.props.MarkerComponent);
       };
     } else {
-      initMap(position, this.props.data.markers);
+      initMap(position, this.props.data.markers, this.props.MarkerComponent);
     }
   }
 
