@@ -1,5 +1,6 @@
 .my-marker {
   display: inline-block;
+  border-radius: 4px;
   /* border: 1px solid #dddddd; */
   transform: translateX(-50%);
   position: absolute;

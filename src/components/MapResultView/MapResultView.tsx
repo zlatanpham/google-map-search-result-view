@@ -36,6 +36,8 @@ const initMap = function(
     // @ts-ignore
     this.lat = lat;
     // @ts-ignore
+    this.id = data.id;
+    // @ts-ignore
     this.lng = lng;
     // @ts-ignore
     this.pos = new google.maps.LatLng(this.lat, this.lng);
@@ -50,6 +52,7 @@ const initMap = function(
   };
 
   HTMLMarker.prototype.render = function(mapState: MapResultViewState) {
+    this.div.style.zIndex = mapState.activeMarkupId === this.id ? 2 : 1;
     ReactDOM.render(
       //@ts-ignore
       <MarkerComponent {...this.data} map={mapState} />,
