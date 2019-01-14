@@ -15,9 +15,9 @@ interface MarkerInterface {
   map: { activeMarkupId: number; setActiveMarkupId: (id: number) => void };
   isActive: boolean;
   isSelected: boolean;
-  getMarkerProps: {
-    onClick: () => void;
-  };
+  getMarkerProps: (
+    props: React.HTMLAttributes<HTMLElement>,
+  ) => React.HTMLAttributes<HTMLElement>;
 }
 
 export interface Price {
@@ -53,7 +53,11 @@ class Marker extends React.Component<MarkerInterface> {
           cursor: 'pointer',
           color: isActive ? 'white' : isSelected ? 'grey' : 'black',
         }}
-        {...getMarkerProps}
+        {...getMarkerProps({
+          onClick: () => {
+            console.log(this.props);
+          },
+        })}
       >
         {isActive && <div>{this.props.name}</div>}
         {this.props.price.amount_formatted + ' ' + this.props.price.currency}
@@ -69,7 +73,23 @@ class App extends Component {
   render() {
     return (
       <>
-        <div className="App">
+        <div style={{ textAlign: 'center', padding: '30px 0' }}>
+          <button
+            onClick={() => {
+              this.setState({ data: { ...sampleData } });
+            }}
+          >
+            Thailand
+          </button>
+          <button
+            onClick={() => {
+              this.setState({ data: { ...sampleTwo } });
+            }}
+          >
+            New Zealand
+          </button>
+        </div>
+        <div style={{ marginTop: '50px', padding: '20px' }}>
           <MapResultView
             GoogleAPIMapKey={process.env.REACT_APP_GOOGLE_MAP_API || ''}
             // @ts-ignore
@@ -77,20 +97,15 @@ class App extends Component {
             data={this.state.data}
           />
         </div>
-        <button
-          onClick={() => {
-            this.setState({ data: { ...sampleData } });
-          }}
-        >
-          Thailand
-        </button>
-        <button
-          onClick={() => {
-            this.setState({ data: { ...sampleTwo } });
-          }}
-        >
-          New Zealand
-        </button>
+
+        <div style={{ marginTop: '50px', padding: '20px' }}>
+          <MapResultView
+            GoogleAPIMapKey={process.env.REACT_APP_GOOGLE_MAP_API || ''}
+            // @ts-ignore
+            MarkerComponent={Marker}
+            data={this.state.data}
+          />
+        </div>
       </>
     );
   }

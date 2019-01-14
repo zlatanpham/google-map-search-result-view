@@ -16,15 +16,18 @@ export interface MapResultViewProps {
   };
 }
 
-let map: google.maps.Map;
+let scriptTag: HTMLScriptElement | undefined;
+let mapReady = false;
+
 const initMap = function(
   position: { lat: number; lng: number },
   markers: { [K: string]: any }[],
   MarkerComponent: React.ComponentClass,
   mapState: MapResultViewState,
+  node: HTMLDivElement,
 ) {
   // @ts-ignore
-  map = new google.maps.Map(document.getElementById('map'), {
+  const map: google.maps.Map = new google.maps.Map(node, {
     center: { ...position },
     zoom: 16,
     scrollwheel: true,
@@ -43,8 +46,8 @@ const initMap = function(
     this.lat = lat;
     this.id = data.id;
     this.lng = lng;
-    this.pos = new google.maps.LatLng(this.lat, this.lng);
     this.data = rest;
+    this.pos = new google.maps.LatLng(this.lat, this.lng);
   }
 
   // @ts-ignore
@@ -63,12 +66,11 @@ const initMap = function(
         map={mapState}
         isSelected={mapState.selectedMarkers.includes(this.index)}
         isActive={mapState.activeMarker === this.index}
-        getMarkerProps={{
-          onClick: () => {
-            console.log('set');
+        getMarkerProps={(props: React.HTMLAttributes<HTMLElement>) => ({
+          onClick: callAll(() => {
             mapState.setActiveMarker(this.index);
-          },
-        }}
+          }, props.onClick),
+        })}
       />,
       this.div,
     );
@@ -112,7 +114,6 @@ const initMap = function(
   return mapState => {
     //@ts-ignore
     storedMarkers.forEach(marker => {
-      console.log(mapState.activeMarker);
       marker.render(mapState);
     });
   };
@@ -163,32 +164,42 @@ export class MapResultView extends React.Component<
 
   componentDidMount() {
     const position = { lat: this.props.data.lat, lng: this.props.data.lng };
-    if (!map) {
-      this.scriptTag = document.createElement('script');
-      // @ts-ignore
-      this.id = 'google-map';
-      this.scriptTag.async = true;
-      this.scriptTag.defer = true;
-      this.scriptTag.src = `https://maps.googleapis.com/maps/api/js?key=${
-        this.props.GoogleAPIMapKey
-      }`;
+    if (!mapReady) {
+      console.log('go');
+      if (!scriptTag) {
+        scriptTag = document.createElement('script');
+        scriptTag.id = 'google-map-script';
+        scriptTag.async = true;
+        scriptTag.defer = true;
+        scriptTag.src = `https://maps.googleapis.com/maps/api/js?key=${
+          this.props.GoogleAPIMapKey
+        }`;
 
-      document.body.appendChild(this.scriptTag);
+        document.body.appendChild(scriptTag);
+      }
+
+      console.log('onload start');
       // @ts-ignore
-      this.scriptTag.onload = () => {
+
+      scriptTag.addEventListener('load', () => {
+        console.log('load map');
+        mapReady = true;
         this.markerClickCallback = initMap(
           position,
           this.props.data.markers,
           this.props.MarkerComponent,
           this.state,
+          this.target.current as HTMLDivElement,
         );
-      };
+      });
     } else {
+      console.log('load map 2');
       this.markerClickCallback = initMap(
         position,
         this.props.data.markers,
         this.props.MarkerComponent,
         this.state,
+        this.target.current as HTMLDivElement,
       );
     }
   }
@@ -207,6 +218,7 @@ export class MapResultView extends React.Component<
             nextProps.data.markers,
             nextProps.MarkerComponent,
             this.state,
+            this.target.current as HTMLDivElement,
           );
         },
       );
@@ -216,7 +228,6 @@ export class MapResultView extends React.Component<
   render() {
     return (
       <div
-        id="map"
         ref={this.target}
         style={{ height: '1000px' }}
         onMouseDown={e => {
@@ -224,8 +235,6 @@ export class MapResultView extends React.Component<
           this.clientY = e.clientY;
         }}
         onMouseUp={(e: React.MouseEvent<HTMLDivElement>) => {
-          //@ts-ignore
-          console.log(closestById(e.target, 'my-marker'));
           if (
             //@ts-ignore
             !closestById(e.target, 'my-marker') &&
@@ -238,6 +247,9 @@ export class MapResultView extends React.Component<
     );
   }
 }
+
+//@ts-ignore
+const callAll = (...fns) => (...args) => fns.forEach(fn => fn && fn(...args));
 
 function closestById(el: HTMLElement, className: string) {
   while (el.className != className) {
