@@ -5,6 +5,7 @@ import './style.css';
 export interface MapResultViewProps {
   GoogleAPIMapKey: string;
   MarkerComponent: React.ComponentClass;
+  options?: google.maps.MapOptions;
   data: {
     lat: number;
     lng: number;
@@ -20,22 +21,14 @@ let scriptTag: HTMLScriptElement | undefined;
 let mapReady = false;
 
 const initMap = function(
-  position: { lat: number; lng: number },
+  options: google.maps.MapOptions,
   markers: { [K: string]: any }[],
   MarkerComponent: React.ComponentClass,
   mapState: MapResultViewState,
   node: HTMLDivElement,
 ) {
   // @ts-ignore
-  const map: google.maps.Map = new google.maps.Map(node, {
-    center: { ...position },
-    zoom: 16,
-    scrollwheel: true,
-    // maxZoom: 16,
-    // minZoom: 16,
-    // styles: mapStyle,
-  });
-
+  const map: google.maps.Map = new google.maps.Map(node, options);
   // Create Marker
   function HTMLMarker(
     data: { lat: number; lng: number; [K: string]: any },
@@ -162,10 +155,20 @@ export class MapResultView extends React.Component<
     super(props);
   }
 
+  getOptions = (props = this.props): google.maps.MapOptions => {
+    const { lat, lng } = this.props.data;
+    const customOptions = props.options || {};
+    return {
+      center: { lat, lng },
+      zoom: 16,
+      scrollwheel: true,
+      disableDoubleClickZoom: true,
+      ...customOptions,
+    };
+  };
+
   componentDidMount() {
-    const position = { lat: this.props.data.lat, lng: this.props.data.lng };
     if (!mapReady) {
-      console.log('go');
       if (!scriptTag) {
         scriptTag = document.createElement('script');
         scriptTag.id = 'google-map-script';
@@ -178,14 +181,12 @@ export class MapResultView extends React.Component<
         document.body.appendChild(scriptTag);
       }
 
-      console.log('onload start');
       // @ts-ignore
-
       scriptTag.addEventListener('load', () => {
         console.log('load map');
         mapReady = true;
         this.markerClickCallback = initMap(
-          position,
+          this.getOptions(),
           this.props.data.markers,
           this.props.MarkerComponent,
           this.state,
@@ -193,9 +194,8 @@ export class MapResultView extends React.Component<
         );
       });
     } else {
-      console.log('load map 2');
       this.markerClickCallback = initMap(
-        position,
+        this.getOptions(),
         this.props.data.markers,
         this.props.MarkerComponent,
         this.state,
@@ -214,7 +214,7 @@ export class MapResultView extends React.Component<
         },
         () => {
           this.markerClickCallback = this.markerClickCallback = initMap(
-            position,
+            this.getOptions(nextProps),
             nextProps.data.markers,
             nextProps.MarkerComponent,
             this.state,
