@@ -124,7 +124,7 @@ class Marker extends React.Component<MarkerInterface> {
             transform: 'rotate(45deg)',
             position: 'absolute',
             zIndex: 2,
-            bottom: isActive ? '5px' : '-4px',
+            bottom: isActive ? '5px' : '-2px',
             right: '50%',
             marginRight: isActive ? '-6px' : '-5px',
           }}
@@ -138,7 +138,7 @@ class Marker extends React.Component<MarkerInterface> {
             position: 'absolute',
             zIndex: -1,
             boxShadow: '0 2px 4px 0 rgba(0,0,0,0.15)',
-            bottom: isActive ? '5px' : '-4px',
+            bottom: isActive ? '5px' : '-2px',
             right: '50%',
             marginRight: isActive ? '-6px' : '-5px',
           }}
@@ -242,7 +242,7 @@ class MarkerWithPopup extends React.Component<MarkerInterface> {
             transform: 'rotate(45deg)',
             position: 'absolute',
             zIndex: 2,
-            bottom: isActive ? '-13px' : '-4px',
+            bottom: isActive ? '-16px' : '-2px',
             right: '50%',
             marginRight: isActive ? '-6px' : '-5px',
           }}
@@ -256,7 +256,7 @@ class MarkerWithPopup extends React.Component<MarkerInterface> {
             position: 'absolute',
             zIndex: -1,
             boxShadow: '0 2px 4px 0 rgba(0,0,0,0.15)',
-            bottom: isActive ? '-13px' : '-4px',
+            bottom: isActive ? '-16px' : '-2px',
             right: '50%',
             marginRight: isActive ? '-6px' : '-5px',
           }}
