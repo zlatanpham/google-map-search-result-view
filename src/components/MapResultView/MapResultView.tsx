@@ -16,7 +16,7 @@ export interface MapResultViewProps {
   };
 }
 
-let map: any;
+let map: google.maps.Map;
 const initMap = function(
   position: { lat: number; lng: number },
   markers: { [K: string]: any }[],
@@ -36,15 +36,11 @@ const initMap = function(
   // Create Marker
   function HTMLMarker(data: { lat: number; lng: number; [K: string]: any }) {
     const { lat, lng, ...rest } = data;
-    // @ts-ignore
+
     this.lat = lat;
-    // @ts-ignore
     this.id = data.id;
-    // @ts-ignore
     this.lng = lng;
-    // @ts-ignore
     this.pos = new google.maps.LatLng(this.lat, this.lng);
-    // @ts-ignore
     this.data = rest;
   }
 
@@ -54,6 +50,7 @@ const initMap = function(
     console.log('remove');
   };
 
+  // @ts-ignore
   HTMLMarker.prototype.render = function(mapState: MapResultViewState) {
     this.div.style.zIndex = mapState.activeMarkupId === this.id ? 2 : 1;
     ReactDOM.render(
@@ -65,7 +62,7 @@ const initMap = function(
 
   // init your html element here
   HTMLMarker.prototype.onAdd = function() {
-    console.log('add');
+    console.log('add marker fire');
     this.div = document.createElement('div');
     this.div.className = 'my-marker';
     // let span = document.createElement('span');
@@ -85,7 +82,6 @@ const initMap = function(
     this.div.style.top = position.y + 'px';
   };
 
-  // @ts-ignore
   var bounds = new google.maps.LatLngBounds();
 
   //@ts-ignore
@@ -96,17 +92,11 @@ const initMap = function(
     var htmlMarker = new HTMLMarker(marker);
     htmlMarker.setMap(map);
     storedMarkers.push(htmlMarker);
-
-    // Set zoom to display all current marker
     bounds.extend({ lat: marker.lat, lng: marker.lng });
     map.fitBounds(bounds);
   });
 
   //@ts-ignore
-  // storedMarkers.forEach(marker => {
-  //   marker.render();
-  // });
-
   return mapState => {
     //@ts-ignore
     storedMarkers.forEach(marker => {
@@ -186,6 +176,9 @@ export class MapResultView extends React.Component<
         nextProps.MarkerComponent,
         this.state,
       );
+      this.setState({
+        activeMarkupId: 0,
+      });
     }
   }
 
@@ -202,10 +195,9 @@ export class MapResultView extends React.Component<
           this.clientX = e.clientX;
           this.clientY = e.clientY;
         }}
-        onMouseUp={(e: React.MouseEvent) => {
+        onMouseUp={(e: React.MouseEvent<HTMLDivElement>) => {
           //@ts-ignore
           console.log(closestById(e.target, 'my-marker'));
-          //@ts-ignore
           if (
             //@ts-ignore
             !closestById(e.target, 'my-marker') &&
