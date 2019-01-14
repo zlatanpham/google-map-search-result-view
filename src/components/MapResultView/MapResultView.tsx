@@ -34,9 +34,12 @@ const initMap = function(
   });
 
   // Create Marker
-  function HTMLMarker(data: { lat: number; lng: number; [K: string]: any }) {
+  function HTMLMarker(
+    data: { lat: number; lng: number; [K: string]: any },
+    index: number,
+  ) {
     const { lat, lng, ...rest } = data;
-
+    this.index = index;
     this.lat = lat;
     this.id = data.id;
     this.lng = lng;
@@ -52,10 +55,21 @@ const initMap = function(
 
   // @ts-ignore
   HTMLMarker.prototype.render = function(mapState: MapResultViewState) {
-    this.div.style.zIndex = mapState.activeMarkupId === this.id ? 2 : 1;
+    this.div.style.zIndex = mapState.activeMarker === this.index ? 2 : 1;
     ReactDOM.render(
       //@ts-ignore
-      <MarkerComponent {...this.data} map={mapState} />,
+      <MarkerComponent
+        {...this.data}
+        map={mapState}
+        isSelected={mapState.selectedMarkers.includes(this.index)}
+        isActive={mapState.activeMarker === this.index}
+        getMarkerProps={{
+          onClick: () => {
+            console.log('set');
+            mapState.setActiveMarker(this.index);
+          },
+        }}
+      />,
       this.div,
     );
   };
@@ -65,9 +79,7 @@ const initMap = function(
     console.log('add marker fire');
     this.div = document.createElement('div');
     this.div.className = 'my-marker';
-    // let span = document.createElement('span');
-    // span.innerHTML = this.data.name;
-    // this.div.appendChild(span);
+
     this.render(mapState);
     var panes = this.getPanes();
     panes.overlayImage.appendChild(this.div);
@@ -87,9 +99,9 @@ const initMap = function(
   //@ts-ignore
   const storedMarkers = [];
   //@ts-ignore
-  markers.forEach(marker => {
+  markers.forEach((marker, index) => {
     //@ts-ignore
-    var htmlMarker = new HTMLMarker(marker);
+    var htmlMarker = new HTMLMarker(marker, index);
     htmlMarker.setMap(map);
     storedMarkers.push(htmlMarker);
     bounds.extend({ lat: marker.lat, lng: marker.lng });
@@ -100,15 +112,16 @@ const initMap = function(
   return mapState => {
     //@ts-ignore
     storedMarkers.forEach(marker => {
-      console.log(mapState.activeMarkupId);
+      console.log(mapState.activeMarker);
       marker.render(mapState);
     });
   };
 };
 
 interface MapResultViewState {
-  activeMarkupId: number;
-  setActiveMarkupId: (id: number) => void;
+  activeMarker: number;
+  setActiveMarker: (id: number) => void;
+  selectedMarkers: number[];
 }
 
 export class MapResultView extends React.Component<
@@ -116,17 +129,30 @@ export class MapResultView extends React.Component<
   MapResultViewState
 > {
   target = React.createRef<HTMLDivElement>();
-  s: HTMLScriptElement | undefined;
+  clientX: number = 0;
+  clientY: number = 0;
+  scriptTag: HTMLScriptElement | undefined;
 
-  setActiveMarkupId = (id: number) => {
-    this.setState({ activeMarkupId: id }, () => {
-      this.markerClickCallback(this.state);
-    });
+  setActiveMarker = (index: number) => {
+    this.setState(
+      prevState => {
+        const newState = { activeMarker: index };
+        if (!prevState.selectedMarkers.includes(index)) {
+          // @ts-ignore
+          newState.selectedMarkers = [...prevState.selectedMarkers, index];
+        }
+        return newState;
+      },
+      () => {
+        this.markerClickCallback(this.state);
+      },
+    );
   };
 
   state: MapResultViewState = {
-    activeMarkupId: 0,
-    setActiveMarkupId: this.setActiveMarkupId,
+    activeMarker: -1,
+    setActiveMarker: this.setActiveMarker,
+    selectedMarkers: [],
   };
 
   markerClickCallback: (state: MapResultViewState) => void = () => {};
@@ -138,18 +164,18 @@ export class MapResultView extends React.Component<
   componentDidMount() {
     const position = { lat: this.props.data.lat, lng: this.props.data.lng };
     if (!map) {
-      this.s = document.createElement('script');
+      this.scriptTag = document.createElement('script');
       // @ts-ignore
       this.id = 'google-map';
-      this.s.async = true;
-      this.s.defer = true;
-      this.s.src = `https://maps.googleapis.com/maps/api/js?key=${
+      this.scriptTag.async = true;
+      this.scriptTag.defer = true;
+      this.scriptTag.src = `https://maps.googleapis.com/maps/api/js?key=${
         this.props.GoogleAPIMapKey
       }`;
 
-      document.body.appendChild(this.s);
+      document.body.appendChild(this.scriptTag);
       // @ts-ignore
-      this.s.onload = () => {
+      this.scriptTag.onload = () => {
         this.markerClickCallback = initMap(
           position,
           this.props.data.markers,
@@ -170,20 +196,22 @@ export class MapResultView extends React.Component<
   componentWillReceiveProps(nextProps: MapResultViewProps) {
     if (nextProps.data !== this.props.data) {
       const position = { lat: nextProps.data.lat, lng: nextProps.data.lng };
-      this.markerClickCallback = this.markerClickCallback = initMap(
-        position,
-        nextProps.data.markers,
-        nextProps.MarkerComponent,
-        this.state,
+      this.setState(
+        {
+          activeMarker: -1,
+          selectedMarkers: [],
+        },
+        () => {
+          this.markerClickCallback = this.markerClickCallback = initMap(
+            position,
+            nextProps.data.markers,
+            nextProps.MarkerComponent,
+            this.state,
+          );
+        },
       );
-      this.setState({
-        activeMarkupId: 0,
-      });
     }
   }
-
-  clientX: number = 0;
-  clientY: number = 0;
 
   render() {
     return (
@@ -203,7 +231,7 @@ export class MapResultView extends React.Component<
             !closestById(e.target, 'my-marker') &&
             (this.clientX === e.clientX && this.clientY === e.clientY)
           ) {
-            this.setActiveMarkupId(0);
+            this.setActiveMarker(-1);
           }
         }}
       />
