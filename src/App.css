@@ -1,0 +1,13 @@
+.custom-marker {
+  position: relative;
+}
+.custom-marker:hover > div:first-child {
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 999;
+}
+
+.custom-marker:hover > div:nth-child(2) {
+  opacity: 0;
+  visibility: hidden;
+}

@@ -57,6 +57,7 @@ const initMap = function(
       <MarkerComponent
         {...this.data}
         map={mapState}
+        index={this.index}
         isSelected={mapState.selectedMarkers.includes(this.index)}
         isActive={mapState.activeMarker === this.index}
         getMarkerProps={(props: React.HTMLAttributes<HTMLElement>) => ({
@@ -177,13 +178,10 @@ export class MapResultView extends React.Component<
         scriptTag.src = `https://maps.googleapis.com/maps/api/js?key=${
           this.props.GoogleAPIMapKey
         }`;
-
         document.body.appendChild(scriptTag);
       }
-
       // @ts-ignore
       scriptTag.addEventListener('load', () => {
-        console.log('load map');
         mapReady = true;
         this.markerClickCallback = initMap(
           this.getOptions(),
@@ -229,7 +227,7 @@ export class MapResultView extends React.Component<
     return (
       <div
         ref={this.target}
-        style={{ height: '1000px' }}
+        style={{ height: 'calc(100vh - 60px)' }}
         onMouseDown={e => {
           this.clientX = e.clientX;
           this.clientY = e.clientY;
