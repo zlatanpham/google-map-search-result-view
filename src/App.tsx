@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MapResultView } from './components/MapResultView';
+import { MapResultsView } from './components/MapResultsView';
 import './App.css';
 import sampleData, { sampleTwo } from './sampleData';
 import customMapStyle from './mapStyle';
@@ -301,7 +301,7 @@ class App extends Component {
 
         <div style={{ display: 'flex' }}>
           <div style={{ width: '50%' }}>
-            <MapResultView
+            <MapResultsView
               GoogleAPIMapKey={process.env.REACT_APP_GOOGLE_MAP_API || ''}
               // @ts-ignore
               MarkerComponent={MarkerWithPopup}
@@ -310,7 +310,7 @@ class App extends Component {
           </div>
 
           <div style={{ width: '50%' }}>
-            <MapResultView
+            <MapResultsView
               options={{ styles: customMapStyle, zoomControl: false }}
               GoogleAPIMapKey={process.env.REACT_APP_GOOGLE_MAP_API || ''}
               // @ts-ignore
