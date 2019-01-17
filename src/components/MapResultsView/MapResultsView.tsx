@@ -6,12 +6,14 @@ export interface MapResultsViewProps<Marker> {
   GoogleAPIMapKey: string;
   MarkerComponent: React.ComponentType<MarkerComponentProps<Marker>>;
   options?: google.maps.MapOptions;
-  data: {
-    id: string;
-    lat: number;
-    lng: number;
-    markers: MarkerRemote<Marker>[];
-  };
+  data: MapProps<Marker>;
+}
+
+interface MapProps<Marker> {
+  id: string;
+  lat: number;
+  lng: number;
+  markers: MarkerRemote<Marker>[];
 }
 
 export type MarkerRemote<Marker> = Marker & {
@@ -20,50 +22,56 @@ export type MarkerRemote<Marker> = Marker & {
 };
 
 export type MarkerComponentProps<Marker> = Marker & {
-  map: MapResultsViewState;
+  map: MapResultsViewStateAndHelpers;
   isSelected: boolean;
   isActive: boolean;
   index: number;
+  getMarkerProps: (
+    props: React.HTMLAttributes<HTMLElement>,
+  ) => React.HTMLAttributes<HTMLElement>;
 };
 
+// HTML script tag holding Google map libra
 let scriptTag: HTMLScriptElement | undefined;
 let mapReady = false;
 
-interface HTMLMarkerType {
+interface HTMLMarkerType<Marker> {
   index: number;
   lat: number;
   lng: number;
   pos: google.maps.LatLng;
-  data: { [K: string]: any };
+  data: MarkerRemote<Marker>;
   div: HTMLDivElement;
-  render: (mapState: MapResultsViewState) => void;
+  render: (mapState: MapResultsViewStateAndHelpers) => void;
   getPanes: () => google.maps.MapPanes;
   getProjection: () => google.maps.MapCanvasProjection;
 }
 
-const initMap = function<T>(
+const initMap = function<Marker>(
   options: google.maps.MapOptions,
-  markers: MarkerRemote<T>[],
-  MarkerComponent: React.ComponentType<MarkerComponentProps<T>>,
-  mapState: MapResultsViewState,
+  markers: MarkerRemote<Marker>[],
+  MarkerComponent: React.ComponentType<MarkerComponentProps<Marker>>,
+  mapState: MapResultsViewStateAndHelpers,
   node: HTMLDivElement,
 ) {
   const map: google.maps.Map = new google.maps.Map(node, options);
 
   // Create Marker
-  function HTMLMarker<T>(
-    this: HTMLMarkerType,
-    data: MarkerRemote<T>,
+  function HTMLMarker<Marker>(
+    this: HTMLMarkerType<Marker>,
+    data: MarkerRemote<Marker>,
     index: number,
-    MarkerComponent: React.ComponentType<MarkerComponentProps<T>>,
+    MarkerComponent: React.ComponentType<MarkerComponentProps<Marker>>,
   ) {
     const { lat, lng } = data;
-    this.index = index;
     this.lat = lat;
     this.lng = lng;
-    this.data = data;
     this.pos = new google.maps.LatLng(this.lat, this.lng);
-    this.render = function(mapState: MapResultsViewState) {
+
+    this.index = index;
+    this.data = data;
+
+    this.render = function(mapState: MapResultsViewStateAndHelpers) {
       this.div.style.zIndex = mapState.activeMarker === this.index ? '2' : '1';
       ReactDOM.render(
         <MarkerComponent
@@ -84,7 +92,8 @@ const initMap = function<T>(
   }
 
   HTMLMarker.prototype = new google.maps.OverlayView();
-  HTMLMarker.prototype.onAdd = function(this: HTMLMarkerType) {
+
+  HTMLMarker.prototype.onAdd = function(this: HTMLMarkerType<Marker>) {
     this.div = document.createElement('div');
     this.div.className = 'sf-map-view-result-marker';
     this.render(mapState);
@@ -92,41 +101,45 @@ const initMap = function<T>(
     panes.overlayImage.appendChild(this.div);
   };
 
-  HTMLMarker.prototype.draw = function(this: HTMLMarkerType) {
+  HTMLMarker.prototype.draw = function(this: HTMLMarkerType<Marker>) {
     var overlayProjection = this.getProjection();
     var position = overlayProjection.fromLatLngToDivPixel(this.pos);
     this.div.style.left = position.x + 'px';
     this.div.style.top = position.y + 'px';
   };
 
-  var bounds = new google.maps.LatLngBounds();
-
-  const storedMarkers: HTMLMarkerType[] = [];
+  const storedMarkers: HTMLMarkerType<Marker>[] = [];
+  const bounds = new google.maps.LatLngBounds();
   markers.forEach((marker, index) => {
-    //@ts-ignore
-    var htmlMarker = new HTMLMarker<T>(marker, index, MarkerComponent);
+    // TODO: ts-ignore should be removed
+    // @ts-ignore
+    var htmlMarker = new HTMLMarker<Marker>(marker, index, MarkerComponent);
     htmlMarker.setMap(map);
     storedMarkers.push(htmlMarker);
     bounds.extend({ lat: marker.lat, lng: marker.lng });
     map.fitBounds(bounds);
   });
 
-  return (mapState: MapResultsViewState) => {
+  return (mapState: MapResultsViewStateAndHelpers) => {
     storedMarkers.forEach(marker => {
       marker.render(mapState);
     });
   };
 };
 
-interface MapResultsViewState {
+interface MapResultsViewState<Marker> extends MapResultsViewStateAndHelpers {
+  prevPropData: MapProps<Marker>;
+}
+
+interface MapResultsViewStateAndHelpers {
   activeMarker: number;
   setActiveMarker: (id: number) => void;
   selectedMarkers: number[];
 }
 
-export class MapResultsView<T> extends Component<
-  MapResultsViewProps<T>,
-  MapResultsViewState
+export class MapResultsView<Marker> extends Component<
+  MapResultsViewProps<Marker>,
+  MapResultsViewState<Marker>
 > {
   target = React.createRef<HTMLDivElement>();
   clientX: number = 0;
@@ -136,7 +149,7 @@ export class MapResultsView<T> extends Component<
   setActiveMarker = (index: number) => {
     this.setState(
       prevState => {
-        const newState = { activeMarker: index } as MapResultsViewState;
+        const newState = { activeMarker: index } as MapResultsViewState<Marker>;
         if (!prevState.selectedMarkers.includes(index)) {
           newState.selectedMarkers = [...prevState.selectedMarkers, index];
         }
@@ -148,17 +161,24 @@ export class MapResultsView<T> extends Component<
     );
   };
 
-  state: MapResultsViewState = {
+  getMapResultsViewStateAndHelpers = (): MapResultsViewStateAndHelpers => {
+    const { activeMarker, selectedMarkers, setActiveMarker } = this.state;
+    return {
+      activeMarker,
+      selectedMarkers,
+      setActiveMarker,
+    };
+  };
+
+  state: MapResultsViewState<Marker> = {
     activeMarker: -1,
     setActiveMarker: this.setActiveMarker,
     selectedMarkers: [],
+    prevPropData: this.props.data,
   };
-
-  markerClickCallback: (state: MapResultsViewState) => void = () => {};
-
-  constructor(props: MapResultsViewProps<T>) {
-    super(props);
-  }
+  markerClickCallback: (
+    state: MapResultsViewStateAndHelpers,
+  ) => void = () => {};
 
   getOptions = (props = this.props): google.maps.MapOptions => {
     const { lat, lng } = this.props.data;
@@ -172,11 +192,19 @@ export class MapResultsView<T> extends Component<
     };
   };
 
-  componentDidMount() {
-    if (!this.target.current) {
-      return;
-    }
+  init = (props: MapResultsViewProps<Marker> = this.props) => {
+    if (!this.target.current) return;
 
+    this.markerClickCallback = initMap<Marker>(
+      this.getOptions(),
+      props.data.markers,
+      props.MarkerComponent,
+      this.state,
+      this.target.current,
+    );
+  };
+
+  componentDidMount() {
     if (!mapReady) {
       if (!scriptTag) {
         scriptTag = document.createElement('script');
@@ -189,31 +217,15 @@ export class MapResultsView<T> extends Component<
         document.body.appendChild(scriptTag);
       }
       scriptTag.addEventListener('load', () => {
-        if (!this.target.current) {
-          return;
-        }
         mapReady = true;
-
-        this.markerClickCallback = initMap<T>(
-          this.getOptions(),
-          this.props.data.markers,
-          this.props.MarkerComponent,
-          this.state,
-          this.target.current,
-        );
+        this.init();
       });
     } else {
-      this.markerClickCallback = initMap<T>(
-        this.getOptions(),
-        this.props.data.markers,
-        this.props.MarkerComponent,
-        this.state,
-        this.target.current,
-      );
+      this.init();
     }
   }
 
-  componentWillReceiveProps(nextProps: MapResultsViewProps<T>) {
+  componentWillReceiveProps(nextProps: MapResultsViewProps<Marker>) {
     if (nextProps.data !== this.props.data) {
       this.setState(
         {
@@ -222,7 +234,7 @@ export class MapResultsView<T> extends Component<
         },
         () => {
           if (!this.target.current) return;
-          this.markerClickCallback = this.markerClickCallback = initMap<T>(
+          this.markerClickCallback = this.markerClickCallback = initMap<Marker>(
             this.getOptions(nextProps),
             nextProps.data.markers,
             nextProps.MarkerComponent,
@@ -233,6 +245,23 @@ export class MapResultsView<T> extends Component<
       );
     }
   }
+
+  // The `handleMouseDown` & `handleMouseUp` were designed to control the UX state of
+  // the active marker. As when users click on the map (not the marker) then the active marker
+  // should be deactivated. However, if you try to drag the map, the active marker should be remained
+  handleMouseDown = (event: React.MouseEvent<HTMLDivElement>) => {
+    this.clientX = event.clientX;
+    this.clientY = event.clientY;
+  };
+  handleMouseUp = (event: React.MouseEvent<HTMLDivElement>) => {
+    // TODO: should be worked around to remove casting
+    if (
+      !closest(event.target as HTMLElement, 'sf-map-view-result-marker') &&
+      (this.clientX === event.clientX && this.clientY === event.clientY)
+    ) {
+      this.setActiveMarker(-1);
+    }
+  };
 
   render() {
     return (
@@ -247,22 +276,8 @@ export class MapResultsView<T> extends Component<
         })}
         ref={this.target}
         style={{ height: 'calc(100vh - 60px)' }}
-        onMouseDown={e => {
-          this.clientX = e.clientX;
-          this.clientY = e.clientY;
-        }}
-        onMouseUp={(e: React.MouseEvent<HTMLDivElement>) => {
-          // TODO:
-          if (
-            !closestById(
-              e.target as HTMLElement,
-              'sf-map-view-result-marker',
-            ) &&
-            (this.clientX === e.clientX && this.clientY === e.clientY)
-          ) {
-            this.setActiveMarker(-1);
-          }
-        }}
+        onMouseDown={this.handleMouseDown}
+        onMouseUp={this.handleMouseUp}
       />
     );
   }
@@ -272,7 +287,7 @@ const callAll = (...fns: (((...args: any[]) => void) | undefined)[]) => (
   ...args: any[]
 ) => fns.forEach(fn => fn && fn(...args));
 
-const closestById = (el: HTMLElement, className: string) => {
+const closest = (el: HTMLElement, className: string) => {
   let element: HTMLElement | null = el;
 
   while (element && element.className != className) {
