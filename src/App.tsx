@@ -1,26 +1,12 @@
 import React, { Component } from 'react';
-import { MapResultsView, MarkerRemote } from './components/MapResultsView';
+import {
+  MapResultsView,
+  MarkerRemote,
+  MarkerComponentProps,
+} from './components/MapResultsView';
 import './App.css';
 import sampleData, { sampleTwo } from './sampleData';
 import customMapStyle from './mapStyle';
-
-interface MarkerInterface {
-  lat: number;
-  lng: number;
-  id: number;
-  picture_url: string;
-  space_type: string;
-  bed_label: string;
-  name: string;
-  price: Price;
-  map: { activeMarker: number; setActiveMarker: (index: number) => void };
-  isActive: boolean;
-  isSelected: boolean;
-  index: number;
-  getMarkerProps: (
-    props: React.HTMLAttributes<HTMLElement>,
-  ) => React.HTMLAttributes<HTMLElement>;
-}
 
 export interface Price {
   amount: number;
@@ -29,16 +15,15 @@ export interface Price {
   is_micros_accuracy: boolean;
 }
 
-export interface MarkerProps {
-  id: number;
-  lat: number;
-  lng: number;
+interface CustomMarkerProps {
   picture_url: string;
   space_type: string;
   bed_label: string;
   price: Price;
   name: string;
 }
+
+interface MarkerProps extends MarkerRemote<CustomMarkerProps> {}
 
 export interface Price {
   amount: number;
@@ -119,7 +104,7 @@ class App extends Component<{}, AppState> {
 
 export default App;
 
-class Marker extends React.Component<MarkerInterface> {
+class Marker extends React.Component<MarkerComponentProps<MarkerProps>> {
   state = {
     show: false,
   };
@@ -238,7 +223,9 @@ class Marker extends React.Component<MarkerInterface> {
   }
 }
 
-class MarkerWithPopup extends React.Component<MarkerInterface> {
+class MarkerWithPopup extends React.Component<
+  MarkerComponentProps<MarkerProps>
+> {
   render() {
     const { isActive, isSelected, getMarkerProps } = this.props;
     return (
