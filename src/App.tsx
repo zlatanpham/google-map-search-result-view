@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MapResultsView } from './components/MapResultsView';
+import { MapResultsView, MarkerRemote } from './components/MapResultsView';
 import './App.css';
 import sampleData, { sampleTwo } from './sampleData';
 import customMapStyle from './mapStyle';
@@ -28,6 +28,96 @@ export interface Price {
   currency: string;
   is_micros_accuracy: boolean;
 }
+
+export interface MarkerProps {
+  id: number;
+  lat: number;
+  lng: number;
+  picture_url: string;
+  space_type: string;
+  bed_label: string;
+  price: Price;
+  name: string;
+}
+
+export interface Price {
+  amount: number;
+  amount_formatted: string;
+  currency: string;
+  is_micros_accuracy: boolean;
+}
+
+interface AppState {
+  data: {
+    lat: number;
+    lng: number;
+    id: string;
+    markers: MarkerRemote<MarkerProps>[];
+  };
+}
+
+class MapResultsViewExtend extends MapResultsView<MarkerProps> {}
+
+class App extends Component<{}, AppState> {
+  state: AppState = {
+    data: sampleData,
+  };
+  render() {
+    return (
+      <>
+        <div
+          style={{
+            textAlign: 'center',
+            height: '60px',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div style={{ marginRight: '10px' }}>Reset map:</div>
+          <button
+            onClick={() => {
+              this.setState({ data: { ...sampleData } });
+            }}
+          >
+            Thailand
+          </button>
+          <div style={{ width: '10px' }} />
+          <button
+            onClick={() => {
+              this.setState({ data: { ...sampleTwo } });
+            }}
+          >
+            New Zealand
+          </button>
+        </div>
+
+        <div style={{ display: 'flex' }}>
+          <div style={{ width: '50%' }}>
+            <MapResultsViewExtend
+              GoogleAPIMapKey={process.env.REACT_APP_GOOGLE_MAP_API || ''}
+              // @ts-ignore
+              MarkerComponent={MarkerWithPopup}
+              data={this.state.data}
+            />
+          </div>
+
+          <div style={{ width: '50%' }}>
+            <MapResultsViewExtend
+              options={{ styles: customMapStyle, zoomControl: false }}
+              GoogleAPIMapKey={process.env.REACT_APP_GOOGLE_MAP_API || ''}
+              // @ts-ignore
+              MarkerComponent={Marker}
+              data={this.state.data}
+            />
+          </div>
+        </div>
+      </>
+    );
+  }
+}
+
+export default App;
 
 class Marker extends React.Component<MarkerInterface> {
   state = {
@@ -265,63 +355,3 @@ class MarkerWithPopup extends React.Component<MarkerInterface> {
     );
   }
 }
-class App extends Component {
-  state = {
-    data: sampleData,
-  };
-  render() {
-    return (
-      <>
-        <div
-          style={{
-            textAlign: 'center',
-            height: '60px',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}
-        >
-          <div style={{ marginRight: '10px' }}>Reset map:</div>
-          <button
-            onClick={() => {
-              this.setState({ data: { ...sampleData } });
-            }}
-          >
-            Thailand
-          </button>
-          <div style={{ width: '10px' }} />
-          <button
-            onClick={() => {
-              this.setState({ data: { ...sampleTwo } });
-            }}
-          >
-            New Zealand
-          </button>
-        </div>
-
-        <div style={{ display: 'flex' }}>
-          <div style={{ width: '50%' }}>
-            <MapResultsView
-              GoogleAPIMapKey={process.env.REACT_APP_GOOGLE_MAP_API || ''}
-              // @ts-ignore
-              MarkerComponent={MarkerWithPopup}
-              data={this.state.data}
-            />
-          </div>
-
-          <div style={{ width: '50%' }}>
-            <MapResultsView
-              options={{ styles: customMapStyle, zoomControl: false }}
-              GoogleAPIMapKey={process.env.REACT_APP_GOOGLE_MAP_API || ''}
-              // @ts-ignore
-              MarkerComponent={Marker}
-              data={this.state.data}
-            />
-          </div>
-        </div>
-      </>
-    );
-  }
-}
-
-export default App;

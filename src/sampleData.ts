@@ -1,24 +1,7 @@
 export default {
-  accuracy: 9,
-  city: 'Khlong Toei',
-  country_code: 'TH',
-  country: 'Thailand',
   lat: 13.7368422,
   lng: 100.560642,
-  place_id: 'ChIJG9lNpuOe4jARvY1o_p92V7A',
-  precision: 'building',
-  result_type: 'premise',
-  state: 'Krung Thep Maha Nakhon',
-  state_short: 'Krung Thep Maha Nakhon',
-  extended_precision: 'building',
-  district: 'Khlong Toei',
-  full_address:
-    'Sukhumvit Rd, Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand',
-  market: 'Bangkok',
-  street_address: 'Sukhumvit Road',
-  street_name: 'Sukhumvit Road',
-  street_name_short: 'Sukhumvit Rd',
-  zip: '10110',
+  id: '23-adskfhSssdf',
   markers: [
     {
       lat: 13.741267483427281,
@@ -312,20 +295,9 @@ export default {
 };
 
 export const sampleTwo = {
-  accuracy: 4,
-  city: 'Auckland',
-  country_code: 'NZ',
-  country: 'New Zealand',
   lat: -36.8484597,
   lng: 174.7633315,
-  place_id: 'ChIJ--acWvtHDW0RF5miQ2HvAAU',
-  precision: 'city',
-  result_type: 'locality',
-  state: 'Auckland',
-  state_short: 'Auckland',
-  extended_precision: 'city',
-  full_address: 'Auckland, New Zealand',
-  market: 'Auckland',
+  id: 'ChIJ--acWvtHDW0RF5miQ2HvAAU',
   markers: [
     {
       id: 13116654,

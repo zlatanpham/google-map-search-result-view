@@ -2,22 +2,29 @@ import React, { Component } from 'react';
 import * as ReactDOM from 'react-dom';
 import { css } from 'emotion';
 
-export interface MapResultsViewProps {
+export interface MapResultsViewProps<Marker> {
   GoogleAPIMapKey: string;
-  MarkerComponent: React.ComponentClass;
+  MarkerComponent: React.ComponentType<MarkerComponentProps<Marker>>;
   options?: google.maps.MapOptions;
   data: {
+    id: string;
     lat: number;
     lng: number;
-    markers: MarkerProps[];
+    markers: MarkerRemote<Marker>[];
   };
 }
 
-export interface MarkerProps {
+export type MarkerRemote<Marker> = Marker & {
   lat: number;
   lng: number;
-  [K: string]: any;
-}
+};
+
+export type MarkerComponentProps<Marker> = Marker & {
+  map: MapResultsViewState;
+  isSelected: boolean;
+  isActive: boolean;
+  index: number;
+};
 
 let scriptTag: HTMLScriptElement | undefined;
 let mapReady = false;
@@ -26,7 +33,6 @@ interface HTMLMarkerType {
   index: number;
   lat: number;
   lng: number;
-  id: number;
   pos: google.maps.LatLng;
   data: { [K: string]: any };
   div: HTMLDivElement;
@@ -35,29 +41,32 @@ interface HTMLMarkerType {
   getProjection: () => google.maps.MapCanvasProjection;
 }
 
-const initMap = function(
+const initMap = function<T>(
   options: google.maps.MapOptions,
-  markers: MarkerProps[],
-  MarkerComponent: React.ComponentClass,
+  markers: MarkerRemote<T>[],
+  MarkerComponent: React.ComponentType<MarkerComponentProps<T>>,
   mapState: MapResultsViewState,
   node: HTMLDivElement,
 ) {
   const map: google.maps.Map = new google.maps.Map(node, options);
+
   // Create Marker
-  function HTMLMarker(this: HTMLMarkerType, data: MarkerProps, index: number) {
-    const { lat, lng, ...rest } = data;
+  function HTMLMarker<T>(
+    this: HTMLMarkerType,
+    data: MarkerRemote<T>,
+    index: number,
+    MarkerComponent: React.ComponentType<MarkerComponentProps<T>>,
+  ) {
+    const { lat, lng } = data;
     this.index = index;
     this.lat = lat;
-    this.id = data.id;
     this.lng = lng;
-    this.data = rest;
+    this.data = data;
     this.pos = new google.maps.LatLng(this.lat, this.lng);
-    this.render = (mapState: MapResultsViewState) => {
+    this.render = function(mapState: MapResultsViewState) {
       this.div.style.zIndex = mapState.activeMarker === this.index ? '2' : '1';
       ReactDOM.render(
-        // @ts-ignore
         <MarkerComponent
-          {...this.data}
           map={mapState}
           index={this.index}
           isSelected={mapState.selectedMarkers.includes(this.index)}
@@ -67,6 +76,7 @@ const initMap = function(
               mapState.setActiveMarker(this.index);
             }, props.onClick),
           })}
+          {...data}
         />,
         this.div,
       );
@@ -94,7 +104,7 @@ const initMap = function(
   const storedMarkers: HTMLMarkerType[] = [];
   markers.forEach((marker, index) => {
     //@ts-ignore
-    var htmlMarker = new HTMLMarker(marker, index);
+    var htmlMarker = new HTMLMarker<T>(marker, index, MarkerComponent);
     htmlMarker.setMap(map);
     storedMarkers.push(htmlMarker);
     bounds.extend({ lat: marker.lat, lng: marker.lng });
@@ -114,8 +124,8 @@ interface MapResultsViewState {
   selectedMarkers: number[];
 }
 
-export default class MapResultsView extends Component<
-  MapResultsViewProps,
+export class MapResultsView<T> extends Component<
+  MapResultsViewProps<T>,
   MapResultsViewState
 > {
   target = React.createRef<HTMLDivElement>();
@@ -146,7 +156,7 @@ export default class MapResultsView extends Component<
 
   markerClickCallback: (state: MapResultsViewState) => void = () => {};
 
-  constructor(props: MapResultsViewProps) {
+  constructor(props: MapResultsViewProps<T>) {
     super(props);
   }
 
@@ -183,7 +193,8 @@ export default class MapResultsView extends Component<
           return;
         }
         mapReady = true;
-        this.markerClickCallback = initMap(
+
+        this.markerClickCallback = initMap<T>(
           this.getOptions(),
           this.props.data.markers,
           this.props.MarkerComponent,
@@ -192,7 +203,7 @@ export default class MapResultsView extends Component<
         );
       });
     } else {
-      this.markerClickCallback = initMap(
+      this.markerClickCallback = initMap<T>(
         this.getOptions(),
         this.props.data.markers,
         this.props.MarkerComponent,
@@ -202,7 +213,7 @@ export default class MapResultsView extends Component<
     }
   }
 
-  componentWillReceiveProps(nextProps: MapResultsViewProps) {
+  componentWillReceiveProps(nextProps: MapResultsViewProps<T>) {
     if (nextProps.data !== this.props.data) {
       this.setState(
         {
@@ -211,7 +222,7 @@ export default class MapResultsView extends Component<
         },
         () => {
           if (!this.target.current) return;
-          this.markerClickCallback = this.markerClickCallback = initMap(
+          this.markerClickCallback = this.markerClickCallback = initMap<T>(
             this.getOptions(nextProps),
             nextProps.data.markers,
             nextProps.MarkerComponent,
