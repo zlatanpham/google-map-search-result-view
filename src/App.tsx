@@ -80,6 +80,7 @@ class App extends Component<{}, AppState> {
         <div style={{ display: 'flex' }}>
           <div style={{ width: '50%' }}>
             <MapResultsViewExtend
+              styles={{ paddingBottom: '80vh' }}
               GoogleAPIMapKey={process.env.REACT_APP_GOOGLE_MAP_API || ''}
               // @ts-ignore
               MarkerComponent={MarkerWithPopup}

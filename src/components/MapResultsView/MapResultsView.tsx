@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import * as ReactDOM from 'react-dom';
-import { css } from 'emotion';
+import { css, cx } from 'emotion';
 
-export interface MapResultsViewProps<Marker> {
+interface MapResultsViewProps<Marker> {
   GoogleAPIMapKey: string;
   MarkerComponent: React.ComponentType<MarkerComponentProps<Marker>>;
   options?: google.maps.MapOptions;
+  styles?: React.CSSProperties;
   data: MapProps<Marker>;
 }
 
@@ -31,8 +32,9 @@ export type MarkerComponentProps<Marker> = Marker & {
   ) => React.HTMLAttributes<HTMLElement>;
 };
 
-// HTML script tag holding Google map libra
+// HTML script tag holding Google map library
 let scriptTag: HTMLScriptElement | undefined;
+// Check the if library file loaded
 let mapReady = false;
 
 interface HTMLMarkerType<Marker> {
@@ -47,7 +49,7 @@ interface HTMLMarkerType<Marker> {
   getProjection: () => google.maps.MapCanvasProjection;
 }
 
-const initMap = function<Marker>(
+const initializeMap = function<Marker>(
   options: google.maps.MapOptions,
   markers: MarkerRemote<Marker>[],
   MarkerComponent: React.ComponentType<MarkerComponentProps<Marker>>,
@@ -161,6 +163,12 @@ export class MapResultsView<Marker> extends Component<
     );
   };
 
+  static defaultProps = {
+    styles: {
+      paddingBottom: '56%',
+    },
+  };
+
   static getDerivedStateFromProps<Marker>(
     nextProps: MapResultsViewProps<Marker>,
     prevState: MapResultsViewState<Marker>,
@@ -211,7 +219,7 @@ export class MapResultsView<Marker> extends Component<
   init = (props: MapResultsViewProps<Marker> = this.props) => {
     if (!this.target.current || !mapReady) return;
 
-    this.markerClickCallback = initMap<Marker>(
+    this.markerClickCallback = initializeMap<Marker>(
       this.getOptions(),
       props.data.markers,
       props.MarkerComponent,
@@ -267,16 +275,18 @@ export class MapResultsView<Marker> extends Component<
   render() {
     return (
       <div
-        className={css({
-          '.sf-map-view-result-marker': {
-            display: 'inline-block',
-            borderRadius: '4px',
-            transform: 'translateX(-50%)',
-            position: 'absolute',
-          },
-        })}
+        className={cx(
+          css({ ...this.props.styles }),
+          css({
+            '.sf-map-view-result-marker': {
+              display: 'inline-block',
+              borderRadius: '4px',
+              transform: 'translateX(-50%)',
+              position: 'absolute',
+            },
+          }),
+        )}
         ref={this.target}
-        style={{ height: 'calc(100vh - 60px)' }}
         onMouseDown={this.handleMouseDown}
         onMouseUp={this.handleMouseUp}
       />
