@@ -156,10 +156,36 @@ export class MapResultsView<Marker> extends Component<
         return newState;
       },
       () => {
-        this.markerClickCallback(this.state);
+        this.markerClickCallback(this.getMapResultsViewStateAndHelpers());
       },
     );
   };
+
+  static getDerivedStateFromProps<Marker>(
+    nextProps: MapResultsViewProps<Marker>,
+    prevState: MapResultsViewState<Marker>,
+  ) {
+    if (nextProps.data !== prevState.prevPropData) {
+      return {
+        activeMarker: -1,
+        selectedMarkers: [],
+        prevPropData: nextProps.data,
+      };
+    }
+
+    return null;
+  }
+
+  state: MapResultsViewState<Marker> = {
+    activeMarker: -1,
+    setActiveMarker: this.setActiveMarker,
+    selectedMarkers: [],
+    prevPropData: this.props.data,
+  };
+
+  markerClickCallback: (
+    state: MapResultsViewStateAndHelpers,
+  ) => void = () => {};
 
   getMapResultsViewStateAndHelpers = (): MapResultsViewStateAndHelpers => {
     const { activeMarker, selectedMarkers, setActiveMarker } = this.state;
@@ -169,16 +195,6 @@ export class MapResultsView<Marker> extends Component<
       setActiveMarker,
     };
   };
-
-  state: MapResultsViewState<Marker> = {
-    activeMarker: -1,
-    setActiveMarker: this.setActiveMarker,
-    selectedMarkers: [],
-    prevPropData: this.props.data,
-  };
-  markerClickCallback: (
-    state: MapResultsViewStateAndHelpers,
-  ) => void = () => {};
 
   getOptions = (props = this.props): google.maps.MapOptions => {
     const { lat, lng } = this.props.data;
@@ -193,13 +209,13 @@ export class MapResultsView<Marker> extends Component<
   };
 
   init = (props: MapResultsViewProps<Marker> = this.props) => {
-    if (!this.target.current) return;
+    if (!this.target.current || !mapReady) return;
 
     this.markerClickCallback = initMap<Marker>(
       this.getOptions(),
       props.data.markers,
       props.MarkerComponent,
-      this.state,
+      this.getMapResultsViewStateAndHelpers(),
       this.target.current,
     );
   };
@@ -225,24 +241,9 @@ export class MapResultsView<Marker> extends Component<
     }
   }
 
-  componentWillReceiveProps(nextProps: MapResultsViewProps<Marker>) {
+  componentDidUpdate(nextProps: MapResultsViewProps<Marker>) {
     if (nextProps.data !== this.props.data) {
-      this.setState(
-        {
-          activeMarker: -1,
-          selectedMarkers: [],
-        },
-        () => {
-          if (!this.target.current) return;
-          this.markerClickCallback = this.markerClickCallback = initMap<Marker>(
-            this.getOptions(nextProps),
-            nextProps.data.markers,
-            nextProps.MarkerComponent,
-            this.state,
-            this.target.current,
-          );
-        },
-      );
+      this.init(nextProps);
     }
   }
 
